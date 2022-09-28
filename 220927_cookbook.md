@@ -21,6 +21,8 @@ Acknowledgements
 
 Approach inspired by the Domestic Operation Rating (Lomas et al., 2020)
 
+Equations Karl Landers and Raul Jimenez van Hoorn
+
 ## Fossil fuels
 
 ### Definition
@@ -28,7 +30,7 @@ Emissions associated with combustion of any gaseous, liquid, and solid fossil fu
 
 ### Data map
 
-| Description of data available  | Reduced calculation  | Standard calculation | Optimal Calculation |
+| Description of data available  | Reduced calculation [RC]  | Standard calculation [SC] | Optimal Calculation [OC] |
 | ------------------------------ |:---:| :---:| :---:|
 | Modelled energy consumption | X |  |  |
 | Monitored annual consumption, ≥11% estimated (kWh) |  | X |  |
@@ -39,18 +41,20 @@ Emissions associated with combustion of any gaseous, liquid, and solid fossil fu
 **Reduced calculation**
 
 $$ 
-\sum \left( \left( \text{ModCon} \times \text{A} \right) \times \text{Fac} \right) \div 1,000 = \text{tCO}_2\text{e}^{\text{RC}}
+\frac{\left( \text{ModCon} \times \text{A} \right) \times \text{Fac}}
+{1000} = \text{tCO}_2\text{e}_\text{ [RC]}
 $$
 
 Where:
-* *ModCon* = Value of modelled annual energy use (kWh/m<sup>2</sup>) from the relevant Display Energy Certificate.
-* *A* = Value of total useful floor area (m<sup>2</sup>) from the relevant Display Energy Certificate.
-* *Fac* = Carbon factor assigned to the fuel by the relevant BEIS carbon factor database publication.  
+* ModCon = Value of modelled annual energy use (kWh/m<sup>2</sup>) from the relevant Display Energy Certificate.
+* A = Value of total useful floor area (m<sup>2</sup>) from the relevant Display Energy Certificate.
+* Fac = Carbon factor assigned to the fuel by the relevant BEIS carbon factor database publication.  
 
 **Standard calculation**
 
 $$ 
-\sum \left( \text{EstMonCon} \times \text{Fac} \right) \div 1,000 = \text{tCO}_2\text{e}^{\text{SC}}
+\frac{\text{EstMonCon} \times \text{Fac}}
+{1000} = \text{tCO}_2\text{e}_\text{ [SC]}
 $$
 
 Where:
@@ -60,7 +64,8 @@ Where:
 **Optimal calculation**
 
 $$ 
-\sum \left( \text{MonCon} \times \text{Fac} \right) \div 1,000 = \text{tCO}_2\text{e}^{\text{OC}}
+\frac{\text{MonCon} \times \text{Fac}}
+{1000} = \text{tCO}_2\text{e}_\text{ [OC]}
 $$
 
 Where:
@@ -76,4 +81,5 @@ Stu sources the Display Energy Certification (DEC) for the building he is intere
 By using the BEIS Carbon Factors  for the year he is interested in (2019), Stu was able to source a value for emissions per kWh of natural gas use assuming gross calorific value (0.18385kgCO<sub>2</sub>e/kWh). Stu wanted to report in tonnes, therefore divided the sum by 1,000. This value was then rounded to 2 decimal places. 
 Along with adding their units (tCO<sub>2</sub>e), Stu added the <sup>RC</sup> tag to support transparency around how this figure was calculated using a reduced data calculation method. The final value added to Stu’s report on emissions associated with natural gas consumption was 167.55tCO<sub>2</sub>e<sup>RC</sup>.
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![Example of a Display Energy Certificate](Images/DECExample.png)
+Figure 1. Example of a 
