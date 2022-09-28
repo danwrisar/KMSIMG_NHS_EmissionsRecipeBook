@@ -1,9 +1,3 @@
----
-title: Kent and Medway Sustainability - NHS Emissions Cookbook
-author:  Dr Dan Wright et al.
-keywords: Greener NHS, Emissions, Calculation
----
-
 # Kent & Medway Sustainability: NHS Emissions Cookbook 
 
 **Authors**:
@@ -40,9 +34,7 @@ Emissions associated with combustion of any gaseous, liquid, and solid fossil fu
 | Monitored annual consumption, ≥11% estimated (kWh) |  | X |  |
 | Monitored annual consumption, ≤10% estimated (kWh) |  |  | X |
 
-### Calculations
-
-#### Natural gas
+### Calculations: Natural gas
 
 **Reduced calculation**
 
@@ -74,3 +66,14 @@ $$
 Where:
 * MonCon = Value of monitored annual energy use (kWh) where ≤10% of data are estimated.
 * Fac = Carbon factor assigned to the fuel by the relevant DEFRA or BEIS carbon factor database publication.  
+
+### Examples
+
+**Reduced Data Calculation**
+
+Stu sources the Display Energy Certification (DEC) for the building he is interested in. Using information from the Building Energy Use figure (Figure 1), Stu multiplies the annual energy use of other fuels (328) by the total useful floor area for the building (2778.54). The calculated annual total consumption (911,361.12) is presented in kWh. 
+
+By using the BEIS Carbon Factors  for the year he is interested in (2019), Stu was able to source a value for emissions per kWh of natural gas use assuming gross calorific value (0.18385kgCO<sub>2</sub>e/kWh). Stu wanted to report in tonnes, therefore divided the sum by 1,000. This value was then rounded to 2 decimal places. 
+Along with adding their units (tCO<sub>2</sub>e), Stu added the <sup>RC</sup> tag to support transparency around how this figure was calculated using a reduced data calculation method. The final value added to Stu’s report on emissions associated with natural gas consumption was 167.55tCO<sub>2</sub>e<sup>RC</sup>.
+
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
