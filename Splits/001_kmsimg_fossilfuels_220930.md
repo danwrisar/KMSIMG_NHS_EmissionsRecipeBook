@@ -118,9 +118,9 @@ $$
 
 **Optimal Calculation**
 
-Jo received confirmation from their energy supplier that the site they were interested in used 200,000kWh of natural gas over the course of a year. The supplier provided access to data from an installed Automated Meter Reader (AMR) and Jo was able to spot three weeks where no gas was being consumed unexpectedly. As such, data were missing for four weeks of a total 48 (for sake of this example), equalling 8.33% of estimated or missing data and 91.67% of verified or intact data. It was therefore possible to use the Optimal Calculation methodology.
+Jo received confirmation from their energy supplier that the site they were interested in used 200,000kWh of natural gas over the course of a year. The supplier provided access to data from an installed Automated Meter Reader (AMR) and Jo was able to spot four weeks where no gas was being consumed unexpectedly. As such, data were missing for four weeks of a total 48 (for sake of this example), equalling 8.33% of estimated or missing data and 91.67% of verified or intact data. It was therefore possible to use the Optimal Calculation methodology.
 
-By using the BEIS Conversion Factors dataset for the year she is interested in (2019), Jo was able to source a value for emissions per kWh of natural gas use, assuming gross calorific value (0.18385kgCO<sub>2</sub>e/kWh). Jo wanted to report in tonnes, therefore divided the sum by 1,000. This value was then rounded to 2 decimal places. Along with adding their units (tCO<sub>2</sub>e), Julia made sure to add the [OC] tag to support transparency around how this figure was calculated. The final value added to Julia’s annual report was 36.77tCO<sub>2</sub>e [OC].
+By using the BEIS Conversion Factors dataset for the year she is interested in (2019), Jo was able to source a value for emissions per kWh of natural gas use, assuming gross calorific value (0.18385kgCO<sub>2</sub>e/kWh). Jo wanted to report in tonnes, therefore divided the sum by 1,000. This value was then rounded to 2 decimal places. Along with adding their units (tCO<sub>2</sub>e), Jo made sure to add the [OC] tag to support transparency around how this figure was calculated. The final value added to Jo’s annual report was 36.77tCO<sub>2</sub>e [OC].
 
 *Equation 1.6* A worked example of an RDC calculation of emissions associated with natural gas consumption.
 
