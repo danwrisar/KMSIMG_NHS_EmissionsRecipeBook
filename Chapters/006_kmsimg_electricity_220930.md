@@ -35,8 +35,8 @@ Emissions associated with the generation of electricity consumed at owned sites 
 | Description of data available  | Reduced calculation [RC]  | Standard calculation [SC] | Optimal Calculation [OC] |
 | ------------------------------ |:---:| :---:| :---:|
 | Modelled electricity consumption | X |  |  |
-| Monitored annual consumption, ≥11% estimated (kWh) |  | X |  |
-| Monitored annual consumption, ≤10% estimated (kWh) |  |  | X |
+| Monitored annual consumption, $\geq$ 11% estimated (kWh) |  | X |  |
+| Monitored annual consumption, $\leq$ 10% estimated (kWh) |  |  | X |
 
 ### Calculations
 
