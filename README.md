@@ -2,7 +2,7 @@
 
 <h1 align="center">
   <br>
-  <img src="https://github.com/danwrisar/COVE_ContextOfVehicleEmissionsTool/blob/main/img/covelogo.png" alt="COVE Tool" width="200">
+  <img src="https://github.com/danwrisar/KMSIMG_NHS_EmissionsCookbook/blob/main/Images/recipebook.png" alt="NH Emission Recipe Book Logo" width="200">
   <br>
   The NHS Emission Quantification Recipe Book
   <br>
