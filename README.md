@@ -2,7 +2,7 @@
 
 <h1 align="center">
   <br>
-  <img src="https://github.com/danwrisar/KMSIMG_NHS_EmissionsCookbook/blob/main/Images/recipebook.png" alt="NH Emission Recipe Book Logo" width="200">
+  <img src="https://github.com/danwrisar/KMSIMG_NHS_EmissionsCookbook/blob/main/Images/recipebook.png" alt="NHS Emission Recipe Book Logo" width="200">
   <br>
   The NHS Emission Quantification Recipe Book
   <br>
@@ -28,7 +28,9 @@ Each module has an individual README for guidance on how to implement via the co
 * ~~Module Three: Create graphs to visualise the mileage claim data~~ (Coming in v1.1!)
 * ~~Module Four: Geospatial visualisation of journeys, destinations and bases~~ (Coming in v1.2!)
 
-![Example of a Display Energy Certificate](Images/NZR-Scopes.png)
+ <img src="https://github.com/danwrisar/KMSIMG_NHS_EmissionsCookbook/blob/main/Images/NZR-Scopes.png" alt="Greener NHS Net Zero Scopes" width="500">
+
+![Greener NHS Net Zero Scope](Images/NZR-Scopes.png)
 Fig 1. A summary of the themes considered to be within scope for reduction to zero by 2040 (NHS Carbon Footprint) and 2045 (NHS Carbon Footprint Plus) published by the [Greener NHS](https://www.england.nhs.uk/greenernhs/a-net-zero-nhs/).
 
 ## Emailware
