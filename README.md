@@ -1,4 +1,4 @@
-> A transparent, collaborative and evidence-based approach to establishing a standardised means of calculating emissions associated with NHS Carbon Footprint and Carbon Footprint Plus themes set out by the [Greener NHS](https://www.england.nhs.uk/greenernhs/) in October 2020. These documents have been developed by Dr Dan Wright of the Sustainability Team at [Kent Community Health NHS Foundation Trust](https://www.kentcht.nhs.uk/) in collaboration with members of the Kent & Medway Sustainability Impacts and Methodologies Group (KMS-IMG).
+> A transparent, collaborative and evidence-based approach to establishing a standardised means of calculating emissions associated with NHS Carbon Footprint and Carbon Footprint Plus themes set out by the [Greener NHS](https://www.england.nhs.uk/greenernhs/) in October 2020. The NHS Emissions Quantification Recipe Book has been developed by Dr Dan Wright of the Sustainability Team at [Kent Community Health NHS Foundation Trust](https://www.kentcht.nhs.uk/) in collaboration with members of the Kent & Medway Sustainability Impacts and Methodologies Group (KMS-IMG).
 
 <h1 align="center">
   <br>
@@ -6,28 +6,45 @@
   <br>
   The NHS Emission Quantification Recipe Book
   <br>
+
+[![GitHub Release](https://img.shields.io/badge/Version-22%2F23-blue)]()  
 </h1>
 
 <p align="center">
-  <a href="#key-features">Key Features</a> •
   <a href="#how-to-use">How To Use</a> •
-  <a href="#credits">Credits</a> •
+  <a href="#get-involved">Get Involved</a> •
   <a href="#license">License</a> •
-  <a href="#example-report">Example report</a> •
   <a href="#change-log">Change log</a>
 </p>
 
 ## How to use
 
-The files can be downloaded by navigating to the parent folder 'cove-project' and choosing the 'Download ZIP' option from the 'Code' button. Alternatively, the repository can be forked and/or cloned using [Git](https://git-scm.com).
+This repository features a series of documents developed in [GitHub-flavoured MarkDown](https://github.github.com/gfm/) to collate best practice around quantification of emissions within Greener NHS themes (Fig 1). 
 
-Each module has an individual README for guidance on how to implement via the command line or through a notebook environment:
+Each document features:
+* A definition of what is included within the theme
+* A data map highlighting which data are requried for the details methods.
+* An overview of calculation approaches including:
+  * Reduced Data Calculation (RDC)
+  * Standard Calculation (SC)
+  * Optimal Calculation (OC)
+* Worked examples of calculating emissions using the RDC, SC and OC methods. 
 
-* Module One: VES API cache creation
-* Module Two: Mileage data analysis
-* ~~Module Three: Create graphs to visualise the mileage claim data~~ (Coming in v1.1!)
-* ~~Module Four: Geospatial visualisation of journeys, destinations and bases~~ (Coming in v1.2!)
-* 
+**NHS Carbon Footprint**
+* [Fossil fuels](/Chapters/001_kmsimg_fossilfuels.md)
+* [NHS Facilities](/Chapters/002_kmsimg_facilities.md)
+* [Anaesthetics](/Chapters/003_kmsimg_anaesthetics.md)
+* [NHS Fleet &  leased vehicles](/Chapters/004_kmsimg_fleet.md)
+* [Electricity](/Chapters/005_kmsimg_electricity.md)
+* [Energy (well to tank)](/Chapters/006_kmsimg_welltotank.md)
+* [Business travel (public transport, greyfleet etc.)](/Chapters/007_kmsimg_businesstravel.md)
+* [Waste](/Chapters/008_kmsimg_waste.md)
+* [Water](/Chapters/009_kmsimg_water.md)
+* [Metred Dose Inhalers](/Chapters/010_kmsimg_inhalers.md)
+
+**NHS Carbon Footprint Plus**
+* [Medical devices](/Chapters/011_kmsimg_medicaldevices.md)
+
 <p align="center">
     <img src="https://github.com/danwrisar/KMSIMG_NHS_EmissionsCookbook/blob/main/Images/NZR-Scopes.png" alt="Greener NHS Net Zero Scopes" width="500">
 </p>
@@ -36,7 +53,7 @@ Fig 1. A summary of the themes considered to be within scope for reduction to ze
 
 ## Emailware
 
-The COVE Tool is [emailware](https://en.wiktionary.org/wiki/emailware). Meaning, if you liked using this tool or it has helped you in any way, please send us an email at <kentcht.sustainability@nhs.net> about anything you'd want to say about this tool. We really appreciate it!
+The NHS Emission Quantification Recipe Book is [emailware](https://en.wiktionary.org/wiki/emailware). Meaning, if you liked using this tool or it has helped you in any way, please send us an email at <kentcht.sustainability@nhs.net> with any feedback. We really appreciate it!
 
 ## Credits
 
@@ -55,10 +72,6 @@ This software uses the following packages:
 ## License
 
 MIT
-
-## Example report
-
-<img src="https://github.com/danwrisar/COVE_ContextOfVehicleEmissionsTool/blob/main/img/COVEReportSample.png" alt="COVE Tool">
 
 ## Change log
 
