@@ -27,10 +27,11 @@ Each module has an individual README for guidance on how to implement via the co
 * Module Two: Mileage data analysis
 * ~~Module Three: Create graphs to visualise the mileage claim data~~ (Coming in v1.1!)
 * ~~Module Four: Geospatial visualisation of journeys, destinations and bases~~ (Coming in v1.2!)
+* 
+<p align="center">
+    <img src="https://github.com/danwrisar/KMSIMG_NHS_EmissionsCookbook/blob/main/Images/NZR-Scopes.png" alt="Greener NHS Net Zero Scopes" width="500">
+</p>
 
- <img src="https://github.com/danwrisar/KMSIMG_NHS_EmissionsCookbook/blob/main/Images/NZR-Scopes.png" alt="Greener NHS Net Zero Scopes" width="500">
-
-![Greener NHS Net Zero Scope](Images/NZR-Scopes.png)
 Fig 1. A summary of the themes considered to be within scope for reduction to zero by 2040 (NHS Carbon Footprint) and 2045 (NHS Carbon Footprint Plus) published by the [Greener NHS](https://www.england.nhs.uk/greenernhs/a-net-zero-nhs/).
 
 ## Emailware
