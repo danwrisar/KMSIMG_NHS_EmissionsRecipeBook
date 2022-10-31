@@ -1,16 +1,4 @@
-# 01 Fossil Fuels
-
-[Kent and Medway Sustainability: NHS Emissions Cookbook]
-
-**Authors**:
-  Dan Wright<sup>1</sup>, James Bate <sup>2</sup>, Vicky Cooper<sup>3</sup>, Emma Lee-Jarman<sup>1</sup>, Stu Meades<sup>5</sup>, Finn Nightingale<sup>1</sup> & Alison Watson<sup>6</sup>.
-
-1. Kent Community Health NHS Foundation Trust
-2. Greener NHS
-3. Kent and Medway NHS and Social Care Mental Health Trust 
-4. Kent County Council
-5. Greener Edge Ltd.
-6. Kent and Medway Integrated Care Board
+# I Fossil Fuels
 
 ## Introduction
 
@@ -19,6 +7,15 @@
 * [Department for Business, Energy and Industrial Strategy (BEIS) conversion factors for company reporting](https://www.gov.uk/government/collections/government-conversion-factors-for-company-reporting) (Accessed: 22 July 2022).
 
 ### Acknowledgements
+
+Dan Wright<sup>1</sup>, James Bate <sup>2</sup>, Vicky Cooper<sup>3</sup>, Emma Lee-Jarman<sup>1</sup>, Stu Meades<sup>5</sup>, Finn Nightingale<sup>1</sup> & Alison Watson<sup>6</sup>.
+
+1. Kent Community Health NHS Foundation Trust
+2. Greener NHS
+3. Kent and Medway NHS and Social Care Mental Health Trust 
+4. Kent County Council
+5. Greener Edge Ltd.
+6. Kent and Medway Integrated Care Board
 
 ### To do list
 
