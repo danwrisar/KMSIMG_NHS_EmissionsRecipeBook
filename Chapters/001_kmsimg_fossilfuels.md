@@ -119,7 +119,7 @@ Jo receives confirmation from her energy supplier that the site she is intereste
 
 By using the [BEIS Conversion Factors dataset for the year she is interested in (2019)](https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2019), Jo is able to source a value for emissions per kWh of natural gas use, assuming gross calorific value (0.18385kgCO<sub>2</sub>e/kWh). Jo wants to report in tonnes, therefore divides the sum by 1,000 and then rounds to two decimal places. Along with adding their units (tCO<sub>2</sub>e), Jo adds the [OC] tag to support transparency around how this figure was calculated. The final value added to Jo’s annual report is 36.77tCO<sub>2</sub>e [OC].
 
-*Equation 1.6* A worked example of a OC calculation of emissions associated with natural gas consumption.
+*Equation 1.6* A worked example of an OC calculation of emissions associated with natural gas consumption.
 
 $$ 
 \frac{200000 \times 0.18385}

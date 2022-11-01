@@ -28,7 +28,7 @@ Key to the methodologies specified is the recognition that NHS organisations are
 
 By being transparent around which methodological approach has been used, either RC, SC or OC, this supports 'comparing apples to apples' both within and between [Integrated Care Systems](https://www.england.nhs.uk/integratedcare/what-is-integrated-care/). To demonstrate, here is a worked example for an RC approach to calculating emissions from natual gas use:
 
-> Stu sources the Display Energy Certification (DEC) for the building they are interested in. Using information from the Building Energy Use figure, Stu multiplies the annual energy use of *other fuels* (328) by the *total useful floor area* for the building (2778.54). The calculated annual total consumption (911,361.12) is presented in kWh. 
+> Stu sources the Display Energy Certification (DEC) for the building they are interested in using the [energy certificate repository](https://www.gov.uk/find-energy-certificate). Using information from the Building Energy Use figure, Stu multiplies the annual energy use of *other fuels* (328) by the *total useful floor area* for the building (2778.54). The calculated annual total consumption (911,361.12) is presented in kWh. 
 >
 > By using the [BEIS Conversion Factors dataset for the year they are interested in (2019)](https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2019), Stu is able to source a value for emissions per kWh of natural gas use assuming gross calorific value (0.18385kgCO<sub>2</sub>e/kWh). Stu wants to report in tonnes, therefore divides the sum by 1,000 and then rounds to two decimal places. Along with adding their units (tCO<sub>2</sub>e), Stu adds the [RC] tag to support transparency around how this figure was calculated. The final value added to Stu’s report on emissions associated with natural gas consumption is 167.55tCO<sub>2</sub>e [RC].
 >
@@ -82,17 +82,13 @@ https://user-images.githubusercontent.com/8417968/199349858-cedfdbd8-598f-4d08-b
 
 The NHS Emission Quantification Recipe Book is [emailware](https://en.wiktionary.org/wiki/emailware). Meaning, if you liked using this tool or it has helped you in any way, please send us an email at <kentcht.sustainability@nhs.net> with any feedback. We really appreciate it!
 
+## Acknowledgements
+
+
+
+
 ## Credits
 
-
-
-
-
-This software uses the following packages:
-
-- [Pandas](https://pandas.pydata.org/)
-- [Numpy](https://numpy.org/)
-- [Plotly](https://pypi.org/project/plotly/)
 - Version badge created on [Shields.io](https://shields.io/)
 - The documents have been developed in [GitHub-flavoured MarkDown](https://github.github.com/gfm/). 
 
