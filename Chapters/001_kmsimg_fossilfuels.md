@@ -25,7 +25,7 @@ Dan Wright<sup>1</sup>, James Bate <sup>2</sup>, Vicky Cooper<sup>3</sup>, Emma 
 ## Methodology
 
 ### Definition
-Emissions associated with combustion of any gaseous, liquid, and solid fossil fuels and owned sites and tenanted sites where billing responsibility to the energy supplier is held.
+Emissions associated with the combustion of any grasseous, liquid, and solid fossil fuels at owned sites and tenanted sites where the reporter holds billing responsibility to the energy supplier.
 
 ### Data map
 
@@ -81,9 +81,9 @@ Where:
 
 **Reduced Data Calculation**
 
-Stu sources the Display Energy Certification (DEC) for the building he is interested in. Using information from the Building Energy Use figure (Figure 1.1), Stu multiplies the annual energy use of other fuels (328) by the total useful floor area for the building (2778.54). The calculated annual total consumption (911,361.12) is presented in kWh. 
+Stu sources the Display Energy Certification (DEC) for the building they are interested in. Using information from the Building Energy Use figure, Stu multiplies the annual energy use of *other fuels* (328) by the *total useful floor area* for the building (2778.54). The calculated annual total consumption (911,361.12) is presented in kWh. 
 
-By using the [BEIS Conversion Factors dataset for the year she is interested in (2019)](https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2019), Stu was able to source a value for emissions per kWh of natural gas use assuming gross calorific value (0.18385kgCO<sub>2</sub>e/kWh). Stu wanted to report in tonnes, therefore divided the sum by 1,000. This value was then rounded to 2 decimal places. Along with adding their units (tCO<sub>2</sub>e), Stu added the [RC] tag to support transparency around how this figure was calculated using a reduced data calculation method. The final value added to Stu’s report on emissions associated with natural gas consumption was 167.55tCO<sub>2</sub>e [RC].
+By using the [BEIS Conversion Factors dataset for the year they are interested in (2019)](https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2019), Stu is able to source a value for emissions per kWh of natural gas use assuming gross calorific value (0.18385kgCO<sub>2</sub>e/kWh). Stu wants to report in tonnes, therefore divides the sum by 1,000 and then rounds to two decimal places. Along with adding their units (tCO<sub>2</sub>e), Stu adds the [RC] tag to support transparency around how this figure was calculated. The final value added to Stu’s report on emissions associated with natural gas consumption is 167.55tCO<sub>2</sub>e [RC].
 
 *Equation 1.4* A worked example of an RDC calculation of emissions associated with natural gas consumption.
 

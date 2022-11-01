@@ -13,12 +13,12 @@
   <a href="#contents">Contents</a> •
   <a href="#get-involved">Get Involved</a> •
   <a href="#license">License</a> •
-  <a href="#change-log">Change log</a>
+  <a href="#change-log">Change Log</a>
 </p>
 
 ## About
 
-The *NHS Emission Quantification Recipe Book* is transparent, collaborative and evidence-based approach to establishing a standardised means of calculating emissions associated with NHS Carbon Footprint and Carbon Footprint Plus themes set out by the [Greener NHS](https://www.england.nhs.uk/greenernhs/) in October 2020. The NHS Emissions Quantification Recipe Book has been developed by Dr Dan Wright of the Sustainability Team at [Kent Community Health NHS Foundation Trust](https://www.kentcht.nhs.uk/) in collaboration with members of the Kent & Medway Sustainability Impacts and Methodologies Group (KMS-IMG).
+The *NHS Emission Quantification Recipe Book* is transparent, collaborative and evidence-based approach to establishing a standardised means of calculating emissions associated with NHS Carbon Footprint and Carbon Footprint Plus themes set out by the [Greener NHS](https://www.england.nhs.uk/greenernhs/) in October 2020 (Figure 1). The NHS Emissions Quantification Recipe Book has been developed by Dr Dan Wright of the Sustainability Team at [Kent Community Health NHS Foundation Trust](https://www.kentcht.nhs.uk/) in collaboration with members of the Kent & Medway Sustainability Impacts and Methodologies Group (KMS-IMG).
 
 Key to the methodologies specified is the recognition that NHS organisations are at different stages in their emissions quantification journey. To support this journey and provide an innovative means to report in a methodologically-transparent way, each theme provides three options for calculation:
 
@@ -28,9 +28,9 @@ Key to the methodologies specified is the recognition that NHS organisations are
 
 By being transparent around which methodological approach has been used, either RC, SC or OC, this supports 'comparing apples to apples' both within and between [Integrated Care Systems](https://www.england.nhs.uk/integratedcare/what-is-integrated-care/). To demonstrate, here is a worked example for an RC approach to calculating emissions from natual gas use:
 
-> Stu sources the Display Energy Certification (DEC) for the building he is interested in. Using information from the Building Energy Use figure (Figure 1.1), Stu multiplies the annual energy use of other fuels (328) by the total useful floor area for the building (2778.54). The calculated annual total consumption (911,361.12) is presented in kWh. 
+> Stu sources the Display Energy Certification (DEC) for the building they are interested in. Using information from the Building Energy Use figure, Stu multiplies the annual energy use of *other fuels* (328) by the *total useful floor area* for the building (2778.54). The calculated annual total consumption (911,361.12) is presented in kWh. 
 >
-> By using the [BEIS Conversion Factors dataset for the year she is interested in (2019)](https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2019), Stu was able to source a value for emissions per kWh of natural gas use assuming gross calorific value (0.18385kgCO<sub>2</sub>e/kWh). Stu wanted to report in tonnes, therefore divided the sum by 1,000. This value was then rounded to 2 decimal places. Along with adding their units (tCO<sub>2</sub>e), Stu added the [RC] tag to support transparency around how this figure was calculated using a reduced data calculation method. The final value added to Stu’s report on emissions associated with natural gas consumption was 167.55tCO<sub>2</sub>e [RC].
+> By using the [BEIS Conversion Factors dataset for the year they are interested in (2019)](https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2019), Stu is able to source a value for emissions per kWh of natural gas use assuming gross calorific value (0.18385kgCO<sub>2</sub>e/kWh). Stu wants to report in tonnes, therefore divides the sum by 1,000 and then rounds to two decimal places. Along with adding their units (tCO<sub>2</sub>e), Stu adds the [RC] tag to support transparency around how this figure was calculated. The final value added to Stu’s report on emissions associated with natural gas consumption is 167.55tCO<sub>2</sub>e [RC].
 >
 > *Equation 1.4* An example of an RC approach to calculating emissions associated with natural gas consumption.
 >
@@ -74,7 +74,9 @@ Fig 1. A summary of the themes considered to be within scope for reduction to ze
 
 ## Get involved
 
-The best way to get involved is to address the issue log and create a pull request with fixes...
+The NHS Emission Quantification Recipe Book has been designed to be a resilient and community-led endeavour that can be easily updated and kept relevant. The GitHub platform is an ideal way to facilitate this functionality. In the video below, Dr Dan Wright provides a quick overview of how you can get involved with the ongoing development of the NHS Emission Quantification Recipe Book through the GitHub forking, pull and commenting functions.
+
+
 
 ## Emailware
 
@@ -102,4 +104,4 @@ MIT
 
 ## Change log
 
-* 04/11/2022 - The first externally-accesible release of the NHS Emissions Quantification Cookbook! The .pdf and .epub versions for general consumption will be released in December 2022. 
+* 04/11/2022 - The first externally-accesible release of the NHS Emission Quantification Recipe Book! The .pdf and .epub versions for general consumption will be released in December 2022. 
