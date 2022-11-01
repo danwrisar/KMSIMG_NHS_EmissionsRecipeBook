@@ -49,7 +49,7 @@ Fig 1. A summary of the themes considered to be within scope for reduction to ze
 
 **NHS Carbon Footprint**
 * [Fossil fuels](/Chapters/001_kmsimg_fossilfuels.md)
-* [NHS Facilities](/Chapters/002_kmsimg_facilities.md)
+* NHS Facilities (coming soon!)
 * [Anaesthetics](/Chapters/003_kmsimg_anaesthetics.md)
 * [NHS Fleet & leased vehicles](/Chapters/004_kmsimg_fleet.md)
 * [Electricity](/Chapters/005_kmsimg_electricity.md)

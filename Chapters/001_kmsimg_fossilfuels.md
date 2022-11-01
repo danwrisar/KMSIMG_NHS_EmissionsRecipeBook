@@ -17,11 +17,6 @@ Dan Wright<sup>1</sup>, James Bate <sup>2</sup>, Vicky Cooper<sup>3</sup>, Emma 
 5. Greener Edge Ltd.
 6. Kent and Medway Integrated Care Board
 
-### To do list
-
-* Fossils fuels: Liquid fuels RC, SC and OC
-* Fossil fuels: Solid fuels RC, SC and OC
-
 ## Methodology
 
 ### Definition
