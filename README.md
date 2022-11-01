@@ -25,10 +25,10 @@ Each document features:
 * A definition of what is included within the theme
 * A data map highlighting which data are requried for the details methods.
 * An overview of calculation approaches including:
-  * Reduced Data Calculation (RDC)
+  * Reduced Calculation (RC)
   * Standard Calculation (SC)
   * Optimal Calculation (OC)
-* Worked examples of calculating emissions using the RDC, SC and OC methods. 
+* Worked examples of calculating emissions using the RC, SC and OC methods. 
 
 **NHS Carbon Footprint**
 * [Fossil fuels](/Chapters/001_kmsimg_fossilfuels.md)
@@ -50,6 +50,10 @@ Each document features:
 </p>
 
 Fig 1. A summary of the themes considered to be within scope for reduction to zero by 2040 (NHS Carbon Footprint) and 2045 (NHS Carbon Footprint Plus) published by the [Greener NHS](https://www.england.nhs.uk/greenernhs/a-net-zero-nhs/).
+
+## Get involved
+
+The best way to get involved is to address the issue log and create a pull request with fixes...
 
 ## Emailware
 
