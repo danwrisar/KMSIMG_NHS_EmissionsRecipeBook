@@ -102,3 +102,4 @@ MIT
 
 ## Change log
 
+* 04/11/2022 - The first externally-accesible release of the NHS Emissions Quantification Cookbook! The .pdf and .epub versions for general consumption will be released in December 2022. 
