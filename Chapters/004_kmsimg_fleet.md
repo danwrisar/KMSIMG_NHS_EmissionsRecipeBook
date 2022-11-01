@@ -1,5 +1,11 @@
 # 05 NHS Fleet & Leased Vehicles
 
+<p align="center">
+  <a href="#introduction">Introduction</a> •
+  <a href="#methodology">Methodology</a> •
+  <a href="#examples">Examples</a>
+</p>
+
 ## Introduction
 
 ### Dependencies
@@ -18,6 +24,8 @@ Dan Wright<sup>1</sup>, James Bate <sup>2</sup>, Vicky Cooper<sup>3</sup>, Paul 
 5. Greener Edge Ltd.
 6. Kent and Medway Integrated Care Board
 
+## Methodology 
+
 ### Definition
 Emissions associated with any travel completed by business-only vehicles owned or leased by the reporting organisation.
 
@@ -28,8 +36,6 @@ Emissions associated with any travel completed by business-only vehicles owned o
 | Fuel card expenses (£) | X |  |  |
 | Fuel card consumption (litres) |  | X |  |
 |  |  |  |  |
-
-### Methodology
 
 **Reduced calculation**
 

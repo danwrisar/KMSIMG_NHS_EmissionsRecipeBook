@@ -1,5 +1,11 @@
 # 03 Anaesthetics
 
+<p align="center">
+  <a href="#introduction">Introduction</a> •
+  <a href="#methodology">Methodology</a> •
+  <a href="#examples">Examples</a>
+</p>
+
 ## Introduction
 
 ### Dependencies
@@ -23,9 +29,9 @@ Emissions associated with the consumption of bottled and piped anaesthetic gasse
 | Purchasing logs  |  | X |  |
 |  |  |  |  |
 
-### Calculations: Bottled anaesthetic gasses
+### Calculations
 
-**Standard calculation**
+**Standard calculation: Bottled anaesthetic gasses**
 
 *Equation 3.2* The SC approach for bottled anaesthetic gasses.
 
@@ -39,9 +45,9 @@ Where:
 * GasDen = Density of the gas (kg/litre).
 * GloWarm = Global warming potential of the gas.
 
-#### Examples: Bottled anaesthetic gasses
+## Examples
 
-**Standard Calculation**
+**Standard Calculation: Bottled anaesthetic gasses**
 
 Karl sources purchase logs from his procurement contact for bottled nitrous oxide gas. From this data he is able to identify the capacity of the bottles purchased and the number of bottles purchased. He finds that 25 bottles of nitrous oxide gas had been purchased, each with a nominal capacity of 1,800 litres (45,000 litres of capacity in total across the 25 bottles). Karl obtains a value for density of nitrous oxide from a reputable source, such as the [CRC Handbook of Chemistry and Physics](https://hbcp.chemnetbase.com/faces/contents/ContentsSearch.xhtml) which states the density of nitrous oxide as 0.0018kg/l.
 

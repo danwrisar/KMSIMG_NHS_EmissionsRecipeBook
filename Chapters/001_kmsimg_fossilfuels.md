@@ -1,5 +1,11 @@
 # 01 Fossil Fuels
 
+<p align="center">
+  <a href="#introduction">Introduction</a> •
+  <a href="#methodology">Methodology</a> •
+  <a href="#examples">Examples</a> •
+</p>
+
 ## Introduction
 
 ### Dependencies
@@ -72,7 +78,7 @@ Where:
 * MonCon = Value of monitored annual energy use (kWh) where ≤10% of data are estimated.
 * Fac = Carbon factor assigned to the fuel by the relevant DEFRA or BEIS carbon factor database publication.  
 
-### Examples
+## Examples
 
 **Reduced Data Calculation**
 
