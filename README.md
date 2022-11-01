@@ -1,5 +1,3 @@
-> A transparent, collaborative and evidence-based approach to establishing a standardised means of calculating emissions associated with NHS Carbon Footprint and Carbon Footprint Plus themes set out by the [Greener NHS](https://www.england.nhs.uk/greenernhs/) in October 2020. The NHS Emissions Quantification Recipe Book has been developed by Dr Dan Wright of the Sustainability Team at [Kent Community Health NHS Foundation Trust](https://www.kentcht.nhs.uk/) in collaboration with members of the Kent & Medway Sustainability Impacts and Methodologies Group (KMS-IMG).
-
 <h1 align="center">
   <br>
   <img src="https://github.com/danwrisar/KMSIMG_NHS_EmissionsCookbook/blob/main/Images/recipebook.png" alt="NHS Emission Recipe Book Logo" width="200">
@@ -28,7 +26,7 @@ Key to the methodologies specified is the recognition that NHS organisations are
 * A *Standard Calculation* (SC) is intended to feature the minimum data that NHS organisations should be working towards sourcing and handling, for example, periodical energy consumption data.
 * An *Optimal Calculation* (OC) is intended to feature 'best in class' approaches to calculating accurate emissions, this may include using advanced tooling or higher resolution data, for example, half-hourly energy consumption data.
 
-Here is a worked example for an RC approach to calculating emissions from natual gas use:
+By being transparent around which methodological approach has been used, either RC, SC or OC, this supports 'comparing apples to apples' both intra and inter Integrated Care Systems (ICSs). To demonstrate, here is a worked example for an RC approach to calculating emissions from natual gas use:
 
 > Stu sources the Display Energy Certification (DEC) for the building he is interested in. Using information from the Building Energy Use figure (Figure 1.1), Stu multiplies the annual energy use of other fuels (328) by the total useful floor area for the building (2778.54). The calculated annual total consumption (911,361.12) is presented in kWh. 
 >
