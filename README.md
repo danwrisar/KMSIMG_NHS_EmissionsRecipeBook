@@ -66,6 +66,7 @@ This software uses the following packages:
 - [Pandas](https://pandas.pydata.org/)
 - [Numpy](https://numpy.org/)
 - [Plotly](https://pypi.org/project/plotly/)
+- Version badge: [Shields.io](https://shields.io/)
 
 ## You may also like...
 
