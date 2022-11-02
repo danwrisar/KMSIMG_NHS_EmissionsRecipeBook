@@ -30,7 +30,7 @@ Dan Wright<sup>1</sup>, James Bate <sup>2</sup>, Vicky Cooper<sup>3</sup>, Emma 
 
 Emissions associated with the generation of electricity consumed at owned sites and tenanted sites where the reporter holds billing responsibility to the energy supplier.
 
-> NOTE: The transmission and distribution of energy is considered to be a *scope three* emissions. As such, it is not included within the the Greener NHS request for *scope two* emissions from electricity consumption.
+> NOTE: The transmission and distribution of energy is considered to be a *scope three* emission. As such, it is not included within the the Greener NHS request for *scope two* emissions from electricity consumption.
 
 ### Data map
 
