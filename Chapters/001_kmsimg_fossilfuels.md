@@ -3,14 +3,15 @@
 <p align="center">
   <a href="#introduction">Introduction</a> •
   <a href="#methodology">Methodology</a> •
-  <a href="#examples">Examples</a> •
+  <a href="#examples">Examples</a>
 </p>
 
 ## Introduction
 
 ### Dependencies
 
-* [Department for Business, Energy and Industrial Strategy (BEIS) conversion factors for company reporting](https://www.gov.uk/government/collections/government-conversion-factors-for-company-reporting) (Accessed: 22 July 2022).
+* [Department for Business, Energy and Industrial Strategy (BEIS) conversion factors for company reporting](https://www.gov.uk/government/collections/government-conversion-factors-for-company-reporting) (Accessed: 22 July 2022)
+* * [Department for Levelling Up, Housing and Communities (DLUHC) energy certificate repository](https://www.gov.uk/find-energy-certificate) (Accessed 02 November 2022)
 
 ### Acknowledgements
 
@@ -36,51 +37,51 @@ Emissions associated with the combustion of any grasseous, liquid, and solid fos
 | Monitored annual consumption, ≥11% estimated (kWh) |  | X |  |
 | Monitored annual consumption, ≤10% estimated (kWh) |  |  | X |
 
-### Calculations: Natural gas
+### Calculations
 
-**Reduced calculation**
+**Reduced calculation: Natural gas**
 
 *Equation 1.1* The RC approach for natural gas consumption.
 
 $$ 
-\frac{\left( \text{ModCon} \times \text{A} \right) \times \text{Fac}}
+\frac{\left( \text{ModCon} \times \text{A} \right) \times \text{FuelFac}}
 {1000} = \text{tCO}_2\text{e} \text{ [RC]}
 $$
 
 Where:
 * ModCon = Value of modelled annual energy use (kWh/m<sup>2</sup>) from the relevant Display Energy Certificate.
 * A = Value of total useful floor area (m<sup>2</sup>) from the relevant Display Energy Certificate.
-* Fac = Carbon factor assigned to the fuel by the relevant BEIS carbon factor database publication.
+* FuelFac = Carbon factor assigned to the fuel by the relevant BEIS carbon factor database publication.
 
-**Standard calculation**
+**Standard calculation: Natural gas**
 
 *Equation 1.2* The SC approach for natural gas consumption.
 
 $$ 
-\frac{\text{EstMonCon} \times \text{Fac}}
+\frac{\text{EstMonCon} \times \text{FuelFac}}
 {1000} = \text{tCO}_2\text{e} \text{ [SC]}
 $$
 
 Where:
 * EstMonCon = Value of monitored annual energy use (kWh) where ≥11% of data are estimated.
-* Fac = Carbon factor assigned to the fuel by the relevant BEIS carbon factor database publication.  
+* FuelFac = Carbon factor assigned to the fuel by the relevant BEIS carbon factor database publication.  
 
-**Optimal calculation**
+**Optimal calculation: Natural gas**
 
 *Equation 1.3* The OC approach for natural gas consumption.
 
 $$ 
-\frac{\text{MonCon} \times \text{Fac}}
+\frac{\text{MonCon} \times \text{FuelFac}}
 {1000} = \text{tCO}_2\text{e} \text{ [OC]}
 $$
 
 Where:
 * MonCon = Value of monitored annual energy use (kWh) where ≤10% of data are estimated.
-* Fac = Carbon factor assigned to the fuel by the relevant DEFRA or BEIS carbon factor database publication.  
+* FuelFac = Carbon factor assigned to the fuel by the relevant BEIS carbon factor database publication.  
 
 ## Examples
 
-**Reduced Data Calculation**
+**Reduced Data Calculation: Natural gas**
 
 Stu sources the Display Energy Certification (DEC) for the building they are interested in using the [energy certificate repository](https://www.gov.uk/find-energy-certificate). Using information from the Building Energy Use figure, Stu multiplies the annual energy use of *other fuels* (328) by the *total useful floor area* for the building (2778.54). The calculated annual total consumption (911,361.12) is presented in kWh. 
 
@@ -97,7 +98,7 @@ $$
 
 *Figure 1.1* Example of data sourced from a Display Energy Certificate.
 
-**Standard Calculation**
+**Standard Calculation: Natural gas**
 
 Julia receives confirmation from her energy supplier that the site she is interested in used 100,000kWh of natural gas over the course of a year she is interested in. The supplier also indicates that the four months at the end of the period being assessed were estimated meter reads (Figure 1.2). Therefore, it can be suggested that 33% of the data underlying the period total consumption were estimated, and it is therefore necessary to use the Standard Calculation (SC) methodology.
 
@@ -114,7 +115,7 @@ $$
 
 *Figure 1.2* A visualisation of actual and estimated gas consumption.
 
-**Optimal Calculation**
+**Optimal Calculation: Natural gas**
 
 Jo receives confirmation from her energy supplier that the site she is interested in used 200,000kWh of natural gas over the course of the year she is interested in. The supplier provides access to data from an installed Automated Meter Reader (AMR) and Jo is able to spot four weeks where no gas was being consumed unexpectedly. As such, data were considered missing for four weeks of a total 48 (for sake of this example), equalling 8.33% of estimated or missing data and 91.67% of verified or intact data. It is therefore possible to use the Optimal Calculation methodology.
 

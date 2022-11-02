@@ -30,9 +30,11 @@ Dan Wright<sup>1</sup>, James Bate <sup>2</sup>, Vicky Cooper<sup>3</sup>, Emma 
 
 Emissions associated with the generation of electricity consumed at owned sites and tenanted sites where the reporter holds billing responsibility to the energy supplier.
 
-> NOTE: The transmission and distribution of energy is considered to be a *scope three* emission. As such, it is not included within the the Greener NHS request for *scope two* emissions from electricity consumption.
+> NOTE: The transmission and distribution of energy is considered to be a *scope three* emission. As such, it is not included within the the Greener NHS request for *scope two* emissions from electricity consumption and is instead included in [06 Energy (well-to-tank)](/Chapters/006_kmsimg_welltotank.md).
 
-### Data map
+### Calculations: Electricity
+
+#### Data map
 
 | Description of data available  | Reduced calculation [RC]  | Standard calculation [SC] | Optimal calculation [OC] |
 | ------------------------------ |:---:| :---:| :---:|
@@ -40,9 +42,7 @@ Emissions associated with the generation of electricity consumed at owned sites 
 | Monitored annual consumption, $\geq$ 11% estimated (kWh) |  | X |  |
 | Monitored annual consumption, $\leq$ 10% estimated (kWh) |  |  | X |
 
-### Calculations
-
-**Reduced calculation**
+##### Reduced calculation
 
 *Equation 5.1* The RC approach for electricity consumption.
 
@@ -57,7 +57,7 @@ Where:
 * A = Value of total useful floor area (m<sup>2</sup>) from the relevant Display Energy Certificate.
 * GenFac = Carbon factor assigned to the generation of electricity by the relevant BEIS carbon factor database publication.
 
-**Standard calculation**
+##### Standard calculation
 
 *Equation 5.2* The SC approach for electricity consumption.
 
@@ -70,7 +70,7 @@ Where:
 * EstMonCon = Value of monitored annual electricity use (kWh) where ≥11% of data are estimated.
 * GenFac = Carbon factor assigned to the fuel by the relevant BEIS carbon factor database publication.
 
-**Optimal calculation**
+##### Optimal calculation
 
 *Equation 5.3* The OC approach for electricity consumption.
 
@@ -81,11 +81,11 @@ $$
 
 Where:
 * MonCon = Value of monitored annual electricty use (kWh) where ≤10% of data are estimated.
-* GenFac = Carbon factor assigned to the fuel by the relevant DEFRA or BEIS carbon factor database publication.  
+* GenFac = Carbon factor assigned to the fuel by the relevant BEIS carbon factor database publication.  
 
-### Examples
+### Examples: Electricity
 
-**Reduced Data Calculation**
+##### Reduced calculation
 
 Emma sources the Display Energy Certification (DEC) for the building she was interested in using the [energy certificate repository](https://www.gov.uk/find-energy-certificate). Using information from the Building Energy Use figure (Figure 5.1), Emma multiplied the annual energy use of electricity (107) by the total useful floor area for the building (2778.54). The calculated annual total consumption (297,303.78) was presented in kWh. 
 
@@ -102,7 +102,7 @@ $$
 
 *Figure 5.1* Example of data sourced from a Display Energy Certificate.
 
-**Standard Calculation**
+##### Standard calculation
 
 Andy receives confirmation from his energy supplier that the site he is interested in used 50,000kWh of electricity over the course of a year. The supplier also indicates that four months were estimated usage, including two months at the end of the year (Figure 5.2). Therefore, it can be suggested that 33% of the data underlying the period total consumption were estimated, and it is necessary to use the Standard Calculation methodology.
 
@@ -119,7 +119,7 @@ $$
 
 *Figure 5.2* A visualisation of actual and estimated electricity consumption data.
 
-**Optimal Calculation**
+##### Optimal calculation
 
 Irem receives confirmation from her energy supplier that the site they are interested in used 18,000kWh of electricity over the course of a year. The supplier provides access to data from an installed Automated Meter Reader (AMR) and Irem is able to spot four weeks where no electricity was being consumed unexpectedly (Figure 5.3). As such, data were missing for four weeks of a total 48 (for the sake of this example), equalling 8.33% of estimated or missing data and 91.67% of verified or intact data. It is possible to use the Optimal Calculation methodology.
 
