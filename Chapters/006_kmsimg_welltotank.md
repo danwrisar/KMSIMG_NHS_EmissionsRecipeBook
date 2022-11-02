@@ -31,7 +31,7 @@ Emissions associated with the supply of natural gas, the transmission and distri
 | Monitored annual consumption, ≥11% estimated (kWh) |  | X |  |
 | Monitored annual consumption, ≤10% estimated (kWh) |  |  | X |
 
-##### Reduced calculation: Natural gas (well-to-tank)
+#### Reduced calculation: Natural gas (well-to-tank)
 
 *Equation 6.1* The RC approach for calculating well-to-tank emissions associated with the supply of natural gas.
 
@@ -45,7 +45,7 @@ Where:
 * A = Value of total useful floor area (m<sup>2</sup>) from the relevant Display Energy Certificate.
 * WTTFac = Carbon factor assigned to well-to-tank supply of the fuel by the relevant BEIS carbon factor database publication.
 
-##### Standard calculation: Natural gas (well-to-tank)
+#### Standard calculation: Natural gas (well-to-tank)
 
 *Equation 6.2* The SC approach for calculating well-to-tank emissions associated with the supply of natural gas.
 
@@ -58,7 +58,7 @@ Where:
 * EstMonCon = Value of monitored annual energy use (kWh) where ≥11% of data are estimated.
 * WTTFac = Carbon factor assigned to well-to-tank supply of the fuel by the relevant BEIS carbon factor database publication.  
 
-##### Optimal calculation: Natural gas (well-to-tank)
+#### Optimal calculation: Natural gas (well-to-tank)
 
 *Equation 6.3* The OC approach for calculating well-to-tank emissions associated with the supply of natural gas.
 
@@ -81,7 +81,7 @@ Where:
 | Monitored annual consumption, $\geq$ 11% estimated (kWh) |  | X |  |
 | Monitored annual consumption, $\leq$ 10% estimated (kWh) |  |  | X |
 
-##### Reduced calculation: Electricity (transmission and distribution)
+#### Reduced calculation: Electricity (transmission and distribution)
 
 *Equation 6.4* The RC approach for calculating transmission and distribution emissions associated with the supply of electricity.
 
@@ -96,7 +96,7 @@ Where:
 * A = Value of total useful floor area (m<sup>2</sup>) from the relevant Display Energy Certificate.
 * TDFac = Carbon factor assigned to transmission and distribution of grid electricity by the relevant BEIS carbon factor database publication.  
 
-##### Standard calculation: Electricity (transmission and distribution)
+#### Standard calculation: Electricity (transmission and distribution)
 
 *Equation 6.5* The SC approach for calculating transmission and distribution emissions associated with the supply of electricity.
 
@@ -109,7 +109,7 @@ Where:
 * EstMonCon = Value of monitored annual electricity use (kWh) where ≥11% of data are estimated.
 * TDFac = Carbon factor assigned to transmission and distribution of grid electricity by the relevant BEIS carbon factor database publication.  
 
-##### Optimal calculation: Electricity (transmission and distribution)
+#### Optimal calculation: Electricity (transmission and distribution)
 
 *Equation 6.6* *Equation 6.6* The OC approach for calculating transmission and distribution emissions associated with the supply of electricity.
 
