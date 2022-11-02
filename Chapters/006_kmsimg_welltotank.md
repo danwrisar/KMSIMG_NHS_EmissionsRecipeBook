@@ -16,7 +16,7 @@ Dan Wright<sup>1</sup>
 
 Emissions associated with the supply of natural gas, the transmission and distribution of electricity, and the supply of fuel for use by NHS Fleet, business-use only leased vehicles and business travel vehicles. 
 
-> NOTE: The transmission and distribution of electricity is included here to mitigate potential 'scoping-out' of associated emissions while retaining accuracy of the methodologies outlined in [05 Electricity](/Chapters/001_kmsimg_fossilfuels.md).
+> NOTE: The transmission and distribution of electricity is included here to mitigate potential 'scoping-out' of associated emissions while retaining accuracy of the methodologies outlined in [05 Electricity](/Chapters/005_kmsimg_electricity.md).
 
 ### Data map
 

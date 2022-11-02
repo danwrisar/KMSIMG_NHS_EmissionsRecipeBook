@@ -48,29 +48,29 @@ Fig 1. A summary of the themes considered to be within scope for reduction to ze
 ## Contents 
 
 **NHS Carbon Footprint**
-* [Fossil fuels](/Chapters/001_kmsimg_fossilfuels.md)
-* NHS Facilities (coming soon!)
-* [Anaesthetics](/Chapters/003_kmsimg_anaesthetics.md)
-* [NHS Fleet & leased vehicles](/Chapters/004_kmsimg_fleet.md)
-* [Electricity](/Chapters/005_kmsimg_electricity.md)
-* [Energy (well-to-tank)](/Chapters/006_kmsimg_welltotank.md)
-* [Business travel (public transport, greyfleet etc.)](/Chapters/007_kmsimg_businesstravel.md)
-* [Waste](/Chapters/008_kmsimg_waste.md)
-* [Water](/Chapters/009_kmsimg_water.md)
-* [Metred Dose Inhalers](/Chapters/010_kmsimg_inhalers.md)
+* [01 Fossil fuels](/Chapters/001_kmsimg_fossilfuels.md)
+* 02 NHS Facilities (coming soon!)
+* [03 Anaesthetics](/Chapters/003_kmsimg_anaesthetics.md)
+* [04 NHS Fleet & leased vehicles](/Chapters/004_kmsimg_fleet.md)
+* [05 Electricity](/Chapters/005_kmsimg_electricity.md)
+* [06 Energy (well-to-tank)](/Chapters/006_kmsimg_welltotank.md)
+* [07 Business travel (public transport, greyfleet etc.)](/Chapters/007_kmsimg_businesstravel.md)
+* [08 Waste](/Chapters/008_kmsimg_waste.md)
+* [09 Water](/Chapters/009_kmsimg_water.md)
+* [10 Metred dose inhalers](/Chapters/010_kmsimg_inhalers.md)
 
 **NHS Carbon Footprint Plus** (coming soon!)
-* Medical devices
-* Freight transport
-* Business services
-* Construction
-* Manufacturing (products, chemicals, gases)
-* Medicine
-* Food & catering
-* Commissioned health services outside NHS
-* ICT
-* Staff commuting
-* Patient and visitor travel
+* 11 Medical devices
+* 12 Freight transport
+* 13 Business services
+* 14 Construction
+* 15 Manufacturing (products, chemicals, gases)
+* 16 Medicine
+* 17 Food & catering
+* 18 Commissioned health services outside NHS
+* 19 ICT
+* 20 Staff commuting
+* 21 Patient and visitor travel
 
 ## Get involved
 
