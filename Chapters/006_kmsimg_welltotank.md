@@ -134,63 +134,27 @@ Where:
 
 #### Reduced calculation: NHS Fleet and leased vehicles (well-to-tank)
 
-*Equation 6.7* The RC approach for calculating emissions from NHS Fleet & Leased Vehicles.
+*Equation 6.7* The RC approach for calculating emissions from NHS Fleet and leased vehicles.
 
 $$ 
-\frac{\left( \frac{\text{F1Cost}}{\text{F1Price}} \times \text{F1Fac} \right) + \left( \frac{\text{F2Cost}}{\text{F2Price}} \times \text{F2Fac} \right) ... }
+\frac{\left( \frac{\text{F1Cost}}{\text{F1Price}} \times \text{F1WTTFac} \right) + \left( \frac{\text{F2Cost}}{\text{F2Price}} \times \text{F2WTTFac} \right) ... }
 {1000} = \text{tCO}_2\text{e} \text{ [RC]}
 $$
 
 Where:
 * F*n*Cost = The total annual cost of the distinct fuel type (£) the first fuel type being denoted 'F1'.
-* F*n*Price = The cost per litre of the distinct fuel type (£/litre), the first fuel type being denoted 'F1' .
-* F*n*Fac = The carbon factor assigned to the distinct fuel by the relevant BEIS carbon factor database publication (CO<sub>2</sub>e/litre), the first fuel type being denoted 'F1'.
+* F*n*Price = The cost per litre of the distinct fuel type (£/litre), the first fuel type being denoted 'F1'.
+* F*n*WTTFac = Carbon factor assigned to well-to-tank supply of the fuel by the relevant BEIS carbon factor database publication.
 
 #### Standard calculation: NHS Fleet and leased vehicles (well-to-tank)
 
-*Equation 6.8* The SC approach for calculating emissions from NHS Fleet & Leased Vehicles.
+*Equation 6.8* The SC approach for calculating emissions from NHS Fleet and leased vehicles.
 
 $$ 
-\frac{\left(\text{F1Litres} \times \text{F1Fac} \right) + \left( \text{F2Litres} \times \text{F2Fac} \right) ... }
+\frac{\left(\text{F1Litres} \times \text{F1WTTFac} \right) + \left( \text{F2Litres} \times \text{F2WTTFac} \right) ... }
 {1000} = \text{tCO}_2\text{e} \text{ [SC]}
 $$
 
 Where:
 * F*n*Litres = The annual quantity of the distinct fuel type consumed (litre), the first fuel type being denoted 'F1' .
-* F*n*Fac = The carbon factor assigned to the distinct fuel by the relevant BEIS carbon factor database publication (CO<sub>2</sub>e/litre), the first fuel type being denoted 'F1'.
-
-**Standard calculation: NHS Fleet and leased vehicles**
-
-*Equation 6.8* The SC approach for XXXXXX.
-
-$$ 
-\frac{\left( \text{ModCon} \times \text{A} \right) \times \text{Fac}}
-{1000} = \text{tCO}_2\text{e} \text{ [RC]}
-$$
-
-Where:
-* XXX = XXX
-
-## Examples
-
-**Standard calculation: Natural gas**
-
-Stu sources the Display Energy Certification (DEC) for the building he is interested in. Using information from the Building Energy Use figure (Figure 1.1), Stu multiplies the annual energy use of other fuels (328) by the total useful floor area for the building (2778.54). The calculated annual total consumption (911,361.12) is presented in kWh. 
-
-By using the BEIS Carbon Factors  for the year he is interested in (2019), Stu was able to source a value for emissions per kWh of natural gas use assuming gross calorific value (0.18385kgCO<sub>2</sub>e/kWh). Stu wanted to report in tonnes, therefore divided the sum by 1,000. This value was then rounded to 2 decimal places. 
-Along with adding their units (tCO<sub>2</sub>e), Stu added the [RC] tag to support transparency around how this figure was calculated using a reduced data calculation method. The final value added to Stu’s report on emissions associated with natural gas consumption was 167.55tCO<sub>2</sub>e [RC].
-
-*Equation X.4* A worked example of emissions associated with XXXXXXXX using an RC method.
-
-$$ 
-\frac{\left( 328 \times 2778.54 \right) \times 0.18385}
-{1000} = 167.55\text{tCO}_2\text{e} \text{ [RC]}
-$$
-
-**Standard Calculation**
-
-*Equation X.5* A worked example of emissions associated with XXXXXXXX using an SC method.
-
-**Optimal Calculation**
-
-*Equation X.6* A worked example of emissions associated with XXXXXXXX using an OC method.
+* F*n*WTTFac = Carbon factor assigned to well-to-tank supply of the fuel by the relevant BEIS carbon factor database publication.
