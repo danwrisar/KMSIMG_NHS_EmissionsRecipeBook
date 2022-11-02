@@ -23,9 +23,9 @@ Emissions associated with the supply of natural gas, the transmission and distri
 
 ### Calculations: Natural gas (well-to-tank)
 
-#### Data map
+#### Data map: Natural gas (well-to-tank)
 
-| Description of data available  | Reduced calculation [RC]  | Standard calculation [SC] | Optimal Calculation [OC] |
+| Description of data available  | Reduced calculation [RC]  | Standard calculation [SC] | Optimal calculation [OC] |
 | ------------------------------ |:---:| :---:| :---:|
 | Modelled energy consumption | X |  |  |
 | Monitored annual consumption, ≥11% estimated (kWh) |  | X |  |
@@ -73,7 +73,7 @@ Where:
 
 ### Calculations: Electricity (transmission and distribution)
 
-#### Data map
+#### Data map: Electricity (transmission and distribution)
 
 | Description of data available  | Reduced calculation [RC]  | Standard calculation [SC] | Optimal calculation [OC] |
 | ------------------------------ |:---:| :---:| :---:|
@@ -124,7 +124,40 @@ Where:
 
 ### Calculations: NHS Fleet and leased vehicles (well-to-tank)
 
-#### Data map
+#### Data map: NHS Fleet and leased vehicles (well-to-tank)
+
+| Description of data available  | Reduced calculation [RC]  | Standard calculation [SC] | Optimal calculation [OC] |
+| ------------------------------ |:---:| :---:| :---:|
+| Fuel card expenses (£) | X |  |  |
+| Fuel card consumption (litres) |  | X |  |
+|  |  |  |  |
+
+#### Reduced calculation: NHS Fleet and leased vehicles (well-to-tank)
+
+*Equation 6.7* The RC approach for calculating emissions from NHS Fleet & Leased Vehicles.
+
+$$ 
+\frac{\left( \frac{\text{F1Cost}}{\text{F1Price}} \times \text{F1Fac} \right) + \left( \frac{\text{F2Cost}}{\text{F2Price}} \times \text{F2Fac} \right) ... }
+{1000} = \text{tCO}_2\text{e} \text{ [RC]}
+$$
+
+Where:
+* F*n*Cost = The total annual cost of the distinct fuel type (£) the first fuel type being denoted 'F1'.
+* F*n*Price = The cost per litre of the distinct fuel type (£/litre), the first fuel type being denoted 'F1' .
+* F*n*Fac = The carbon factor assigned to the distinct fuel by the relevant BEIS carbon factor database publication (CO<sub>2</sub>e/litre), the first fuel type being denoted 'F1'.
+
+#### Standard calculation: NHS Fleet and leased vehicles (well-to-tank)
+
+*Equation 6.8* The SC approach for calculating emissions from NHS Fleet & Leased Vehicles.
+
+$$ 
+\frac{\left(\text{F1Litres} \times \text{F1Fac} \right) + \left( \text{F2Litres} \times \text{F2Fac} \right) ... }
+{1000} = \text{tCO}_2\text{e} \text{ [SC]}
+$$
+
+Where:
+* F*n*Litres = The annual quantity of the distinct fuel type consumed (litre), the first fuel type being denoted 'F1' .
+* F*n*Fac = The carbon factor assigned to the distinct fuel by the relevant BEIS carbon factor database publication (CO<sub>2</sub>e/litre), the first fuel type being denoted 'F1'.
 
 **Standard calculation: NHS Fleet and leased vehicles**
 

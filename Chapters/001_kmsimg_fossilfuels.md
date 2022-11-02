@@ -27,11 +27,11 @@ Dan Wright<sup>1</sup>, James Bate <sup>2</sup>, Vicky Cooper<sup>3</sup>, Emma 
 ## Methodology
 
 ### Definition
-Emissions associated with the combustion of any grasseous, liquid, and solid fossil fuels at owned sites and tenanted sites where the reporter holds billing responsibility to the energy supplier.
+Emissions associated with the combustion of any gaseous, liquid, and solid fossil fuels at owned sites and tenanted sites where the reporter holds billing responsibility to the energy supplier.
 
 ### Data map
 
-| Description of data available  | Reduced calculation [RC]  | Standard calculation [SC] | Optimal Calculation [OC] |
+| Description of data available  | Reduced calculation [RC]  | Standard calculation [SC] | Optimal calculation [OC] |
 | ------------------------------ |:---:| :---:| :---:|
 | Modelled energy consumption | X |  |  |
 | Monitored annual consumption, ≥11% estimated (kWh) |  | X |  |

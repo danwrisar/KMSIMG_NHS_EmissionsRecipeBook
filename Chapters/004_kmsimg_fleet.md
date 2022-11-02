@@ -31,7 +31,7 @@ Emissions associated with any travel completed by business-only vehicles owned o
 
 ### Data map
 
-| Description of data available  | Reduced calculation [RC]  | Standard calculation [SC] | Optimal Calculation [OC] |
+| Description of data available  | Reduced calculation [RC]  | Standard calculation [SC] | Optimal calculation [OC] |
 | ------------------------------ |:---:| :---:| :---:|
 | Fuel card expenses (£) | X |  |  |
 | Fuel card consumption (litres) |  | X |  |
@@ -53,7 +53,7 @@ Where:
 
 **Standard calculation**
 
-*Equation 4.2* The SC approach for natural gas consumption.
+*Equation 4.2* The SC approach for calculating emissions from NHS Fleet & Leased Vehicles.
 
 $$ 
 \frac{\left(\text{F1Litres} \times \text{F1Fac} \right) + \left( \text{F2Litres} \times \text{F2Fac} \right) ... }
