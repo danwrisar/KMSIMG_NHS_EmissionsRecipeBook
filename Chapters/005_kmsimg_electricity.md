@@ -1,4 +1,4 @@
-# 06 Electricity
+# 05 Electricity
 
 <p align="center">
   <a href="#introduction">Introduction</a> •
