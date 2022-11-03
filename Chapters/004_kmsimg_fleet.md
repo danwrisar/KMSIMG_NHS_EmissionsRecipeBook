@@ -10,8 +10,8 @@
 
 ### Dependencies
 
-* [RAC Fuel Watch](https://www.rac.co.uk/drive/advice/fuel-watch/) (Accessed 30 September 2022)
-* [Department for Business, Energy and Industrial Strategy (BEIS) conversion factors for company reporting](https://www.gov.uk/government/collections/government-conversion-factors-for-company-reporting) (Accessed 22 July 2022)
+* [RAC Fuel Watch](https://www.rac.co.uk/drive/advice/fuel-watch/) (Accessed: 30 September 2022)
+* [Department for Business, Energy and Industrial Strategy (BEIS) conversion factors for company reporting](https://www.gov.uk/government/collections/government-conversion-factors-for-company-reporting) (Accessed: 22 July 2022)
 
 ### Acknowledgements
 

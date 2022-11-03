@@ -1,5 +1,11 @@
 # 07 Business travel (public transport, greyfleet etc.)
 
+<p align="center">
+  <a href="#introduction">Introduction</a> •
+  <a href="#methodology">Methodology</a> •
+  <a href="#examples">Examples</a>
+</p>
+
 ## Introduction
 
 ### Dependencies

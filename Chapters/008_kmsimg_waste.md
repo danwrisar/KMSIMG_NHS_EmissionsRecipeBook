@@ -1,70 +1,67 @@
-# 06 Electricity
+# 08 Waste
 
-[Kent and Medway Sustainability: NHS Emissions Cookbook]
-
-**Authors**:
+<p align="center">
+  <a href="#introduction">Introduction</a> •
+  <a href="#methodology">Methodology</a> •
+  <a href="#examples">Examples</a>
+</p>
 
 ## Introduction
 
 ### Dependencies
 
+* [The Department for Environment, Food and Rural Affairs (DEFRA) UK and England's carbon footprint to 2019: UK Full dataset 1990 - 2019, including conversion factors by SIC code](https://www.gov.uk/government/statistics/uks-carbon-footprint) (Accessed: 03 November 2022)
+* [Department for Business, Energy and Industrial Strategy (BEIS) conversion factors for company reporting](https://www.gov.uk/government/collections/government-conversion-factors-for-company-reporting) (Accessed: 22 July 2022)
+
 ### Acknowledgements
 
-### To do list
+Dan Wright<sup>1</sup>, James Bate <sup>2</sup>, Vicky Cooper<sup>3</sup>, Emma Lee-Jarman<sup>1</sup>, Stu Meades<sup>5</sup>, Finn Nightingale<sup>1</sup> & Alison Watson<sup>6</sup>.
+
+1. Kent Community Health NHS Foundation Trust
+2. Greener NHS
+3. Kent and Medway NHS and Social Care Mental Health Trust 
+4. Kent County Council
+5. Greener Edge Ltd.
+6. Kent and Medway Integrated Care Board
 
 ## Methodology
 
 ### Definition
 
-### Data map
-
-| Description of data available  | Reduced calculation [RC]  | Standard calculation [SC] | Optimal Calculation [OC] |
-| ------------------------------ |:---:| :---:| :---:|
-| |  |  |  |
-| |  |  |  |
-| |  |  |  |
+Emissions associated with the transport, treatment and end-of-life disposal of materials at any sites where the reporter holds billing responsibility.
 
 ### Calculations
 
-**Reduced calculation**
+#### Data map
 
-*Equation X.1* The RC approach for XXXXXX.
+| Description of data available  | Reduced calculation [RC]  | Standard calculation [SC] | Optimal Calculation [OC] |
+| ------------------------------ |:---:| :---:| :---:|
+| Waste management billing (£) | X |  |  |
+| Waste disposal quantities (tonnes) |  | X |  |
+| |  |  |  |
 
-$$ 
-\frac{\left( \text{ModCon} \times \text{A} \right) \times \text{Fac}}
-{1000} = \text{tCO}_2\text{e} \text{ [RC]}
+#### Reduced calculation
+
+*Equation 8.1* The RC approach for calculating emissions associated with the disposal of waste.
+
+$$
+\frac{\left(\text{Waste1Cost} \times \text{WasteSICFac} \right) + \left(\text{Waste2Cost} \times \text{WasteSICFac} \right) ... }
+{1000} = \text{tCO}_2\text{e} \text{ [SC]}
 $$
 
 Where:
-* XXX = XXX
+* Waste*n*Cost = The cost of disposal of the waste type, with the first waste type being denoted 'Waste1' (£).
+* WasteSICFac = The value assigned to "waste collection, treatment and disposal services; materials recovery services" from a date relevant dataset (kgCO~2~e/£).
 
-**Standard calculation**
+#### Standard calculation
 
-*Equation X.2* The SC approach for XXXXXX.
+*Equation 8.2* The SC approach for calculating emissions associated with the disposal of waste.
 
-**Optimal calculation**
-
-*Equation X.3* The OC approach for XXXXXX.
-
-### Examples
-
-**Reduced Data Calculation**
-
-Stu sources the Display Energy Certification (DEC) for the building he is interested in. Using information from the Building Energy Use figure (Figure 1.1), Stu multiplies the annual energy use of other fuels (328) by the total useful floor area for the building (2778.54). The calculated annual total consumption (911,361.12) is presented in kWh. 
-
-By using the BEIS Carbon Factors  for the year he is interested in (2019), Stu was able to source a value for emissions per kWh of natural gas use assuming gross calorific value (0.18385kgCO<sub>2</sub>e/kWh). Stu wanted to report in tonnes, therefore divided the sum by 1,000. This value was then rounded to 2 decimal places. 
-Along with adding their units (tCO<sub>2</sub>e), Stu added the [RC] tag to support transparency around how this figure was calculated using a reduced data calculation method. The final value added to Stu’s report on emissions associated with natural gas consumption was 167.55tCO<sub>2</sub>e [RC].
-
-*Equation X.4* A worked example of emissions associated with XXXXXXXX using an RC method.
-$$ 
-\frac{\left( 328 \times 2778.54 \right) \times 0.18385}
-{1000} = 167.55\text{tCO}_2\text{e} \text{ [RC]}
+$$
+\frac{\left(\text{Waste1Weight} \times \text{WasteSICFac} \right) + \left(\text{Waste2Cost} \times \text{WasteSICFac} \right) ... }
+{1000} = \text{tCO}_2\text{e} \text{ [SC]}
 $$
 
-**Standard Calculation**
-
-*Equation X.5* A worked example of emissions associated with XXXXXXXX using an SC method.
-
-**Optimal Calculation**
-
-*Equation X.6* A worked example of emissions associated with XXXXXXXX using an OC method.
+Where:
+* Waste*n*Weight = The weight of the waste type disposed of, with the first waste type being denoted 'Waste1' (tonnes).
+* Waste*n*Fac = The value assigned to the disposal of the waste type by means of disposal from a date relevant dataset (kgCO~2~e/tonne).
