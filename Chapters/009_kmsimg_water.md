@@ -37,12 +37,12 @@ Emissions associated with the supply and treatment of water at owned sites and t
 | Description of data available  | Reduced calculation [RC]  | Standard calculation [SC] | Optimal Calculation [OC] |
 | ------------------------------ |:---:| :---:| :---:|
 | Water supply and treatment billing (£) | X |  |  |
-| Water supply and treatment logging (m^3^) |  | X |  |
+| Water supply and treatment logging (m<sup>3</sup>) |  | X |  |
 | |  |  |  |
 
 #### Reduced calculation
 
-*Equation 9.1* The RC approach for calculating emissions associated with the disposal of waste.
+*Equation 9.1* The RC approach for calculating emissions associated with the use of water.
 
 $$
 \frac{\left(\text{WatSuppCost} \times \text{WatSICFac} \right) + \left(\text{WatTreat} \times \text{WatSICFac} \right)}
@@ -52,11 +52,11 @@ $$
 Where:
 * WatSuppCost = The cost of water supply (£).
 * WatTreatCost = The cost of water treatment (£).
-* WatSICFac = The value assigned to "natural water; water treatment and supply services" from a date relevant dataset (kgCO~2~e/£).
+* WatSICFac = The value assigned to "natural water; water treatment and supply services" from a date relevant dataset (kgCO<sub>2</sub>e/£).
 
 #### Standard calculation
 
-*Equation 8.2* The SC approach for calculating emissions associated with the disposal of waste.
+*Equation 8.2* The SC approach for calculating emissions associated with the use of water.
 
 $$
 \frac{\left(\text{WatSuppVol} \times \text{WatSuppFac} \right) + \left(\text{WatTreatVol} \times \text{WatTreatFac} \right) ... }
@@ -64,7 +64,7 @@ $$
 $$
 
 Where:
-* WatSuppVol = The volume of water supplied (m^3^).
-* WatSuppFac = The value assigned to emissions associted with supply of water from a date relevant dataset (kgCO~2~e/m^3^).
-* WatTreatVol = The volume of water treated (m^3^).
-* WatTreatFac = The value assigned to emissions associted with treatment of water from a date relevant dataset (kgCO~2~e/m^3^).
+* WatSuppVol = The volume of water supplied (m<sup>3</sup>).
+* WatSuppFac = The value assigned to emissions associted with supply of water from a date relevant dataset (kgCO<sub>2</sub>e/m<sup>3</sup>).
+* WatTreatVol = The volume of water treated (m<sup>3</sup>).
+* WatTreatFac = The value assigned to emissions associted with treatment of water from a date relevant dataset (kgCO<sub>2</sub>e/m<sup>3</sup>).

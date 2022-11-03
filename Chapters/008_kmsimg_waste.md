@@ -51,7 +51,7 @@ $$
 
 Where:
 * Waste*n*Cost = The cost of disposal of the waste type, with the first waste type being denoted 'Waste1' (£).
-* WasteSICFac = The value assigned to "waste collection, treatment and disposal services; materials recovery services" from a date relevant dataset (kgCO~2~e/£).
+* WasteSICFac = The value assigned to "waste collection, treatment and disposal services; materials recovery services" from a date relevant dataset (kgCO<sub>2</sub>e/£).
 
 #### Standard calculation
 
@@ -64,4 +64,4 @@ $$
 
 Where:
 * Waste*n*Weight = The weight of the waste type disposed of, with the first waste type being denoted 'Waste1' (tonnes).
-* Waste*n*Fac = The value assigned to the disposal of the waste type by means of disposal from a date relevant dataset (kgCO~2~e/tonne).
+* Waste*n*Fac = The value assigned to the disposal of the waste type by means of disposal from a date relevant dataset (kgCO<sub>2</sub>e/tonne).
