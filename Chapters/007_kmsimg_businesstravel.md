@@ -1,70 +1,68 @@
-# 06 Electricity
-
-[Kent and Medway Sustainability: NHS Emissions Cookbook]
-
-**Authors**:
+# 07 Business travel (public transport, greyfleet etc.)
 
 ## Introduction
 
 ### Dependencies
 
+* [Department for Business, Energy and Industrial Strategy (BEIS) conversion factors for company reporting](https://www.gov.uk/government/collections/government-conversion-factors-for-company-reporting) (Accessed: 22 July 2022)
+* [The Context of Vehicle Emissions (COVE) Tool](https://danwrisar.github.io/COVE-Tool/) (Accessed: 03 November 2022)
+* [Department for Transport (DfT) Vehicle Lookup Service](https://vehicleenquiry.service.gov.uk/) (Accessed: 03 November 2022)
+* [Department for Transport (DfT) Vehicle licensing statistics data tables: VEH0156](https://www.gov.uk/government/statistical-data-sets/vehicle-licensing-statistics-data-tables#all-vehicles) (Accessed: 03 November 2022)
+
 ### Acknowledgements
 
-### To do list
+Dan Wright<sup>1</sup>, James Bate <sup>2</sup>, Vicky Cooper<sup>3</sup>, Paul Davis<sup>4</sup>, Julia Hart<sup>3</sup>, Stu Meades<sup>5</sup> & Alison Watson<sup>6</sup>.
+
+1. Kent Community Health NHS Foundation Trust
+2. Greener NHS
+3. Kent and Medway NHS and Social Care Mental Health Trust 
+4. Maidstone and Tunbridge Wells NHS Trust
+5. Greener Edge Ltd.
+6. Kent and Medway Integrated Care Board
 
 ## Methodology
 
 ### Definition
 
-### Data map
+Emissions associated with any vehicles formally claiming mileage expenses and/or any travel completed where the reporting organisation has directly paid, or reimbursed the cost, including, but not limited to, travel by air, water, rail, bus and taxi.
+
+> NOTE: Paul Chandler, Deputy Director of Net Zero Travel and Transports for Greener NHS, confirmed that reporting through business travel theme is to be restricted to vehicular transport and not include hotel stays etc. associted with business travel (27 October 2022).
+
+### Calculations: Greyfleet
+
+#### Data map
 
 | Description of data available  | Reduced calculation [RC]  | Standard calculation [SC] | Optimal Calculation [OC] |
 | ------------------------------ |:---:| :---:| :---:|
 | |  |  |  |
-| |  |  |  |
-| |  |  |  |
+| Total mileage (claim data) |  | X |  |
+| Mileage per journey (claim data) |  |  | X |
 
-### Calculations
+#### Standard calculation: Greyfleet
 
-**Reduced calculation**
+*Equation 7.2* The SC approach for calculating emissions associated with greyfleet travel.
 
-*Equation X.1* The RC approach for XXXXXX.
-
-$$ 
-\frac{\left( \text{ModCon} \times \text{A} \right) \times \text{Fac}}
+$$
+\frac{\left( \text{TotMil} \times \text{kmConv} \right)\times \text{AvgFac}}
 {1000} = \text{tCO}_2\text{e} \text{ [RC]}
 $$
 
 Where:
-* XXX = XXX
+* TotMil = The total mileage completed by greyfleet over the period of interest.
+* AvgFac = The total average emissions (gCO2) per kilometre for vehicles first registered in the United Kingdom five years prior to the period of interest.
+* kmConv = 1.609344
 
-**Standard calculation**
+#### Optimal calculation: Greyfleet
 
-*Equation X.2* The SC approach for XXXXXX.
+*Equation 7.3* The OC approach for calculating emissions associated with greyfleet.
 
-**Optimal calculation**
-
-*Equation X.3* The OC approach for XXXXXX.
-
-### Examples
-
-**Reduced Data Calculation**
-
-Stu sources the Display Energy Certification (DEC) for the building he is interested in. Using information from the Building Energy Use figure (Figure 1.1), Stu multiplies the annual energy use of other fuels (328) by the total useful floor area for the building (2778.54). The calculated annual total consumption (911,361.12) is presented in kWh. 
-
-By using the BEIS Carbon Factors  for the year he is interested in (2019), Stu was able to source a value for emissions per kWh of natural gas use assuming gross calorific value (0.18385kgCO<sub>2</sub>e/kWh). Stu wanted to report in tonnes, therefore divided the sum by 1,000. This value was then rounded to 2 decimal places. 
-Along with adding their units (tCO<sub>2</sub>e), Stu added the [RC] tag to support transparency around how this figure was calculated using a reduced data calculation method. The final value added to Stu’s report on emissions associated with natural gas consumption was 167.55tCO<sub>2</sub>e [RC].
-
-*Equation X.4* A worked example of emissions associated with XXXXXXXX using an RC method.
-$$ 
-\frac{\left( 328 \times 2778.54 \right) \times 0.18385}
-{1000} = 167.55\text{tCO}_2\text{e} \text{ [RC]}
+$$
+\frac{\left(\left(\text{V1Mil} \times \text{kmConv} \right) \times \text{V1Fac} \right) + \left(\left(\text{V2Mil} \times \text{kmConv} \right) \times \text{V2Fac} \right) ... }
+{1000} = \text{tCO}_2\text{e} \text{ [SC]}
 $$
 
-**Standard Calculation**
+Where: 
 
-*Equation X.5* A worked example of emissions associated with XXXXXXXX using an SC method.
-
-**Optimal Calculation**
-
-*Equation X.6* A worked example of emissions associated with XXXXXXXX using an OC method.
+* V*n*Mil = The mileage completed by a unique vehicle over the period of interest (miles), the first unique vehicle being denoted 'V1' .
+* V*n*Fac = The registered emissions (gCO2) per kilometre for the unique vehicle denoted 'V1'.
+* kmConv = 1.609344
