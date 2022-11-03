@@ -58,7 +58,7 @@ Where:
 *Equation 8.2* The SC approach for calculating emissions associated with the disposal of waste.
 
 $$
-\frac{\left(\text{Waste1Weight} \times \text{WasteSICFac} \right) + \left(\text{Waste2Cost} \times \text{WasteSICFac} \right) ... }
+\frac{\left(\text{Waste1Weight} \times \text{Waste1Fac} \right) + \left(\text{Waste2Cost} \times \text{Waste2Fac} \right) ... }
 {1000} = \text{tCO}_2\text{e} \text{ [SC]}
 $$
 
