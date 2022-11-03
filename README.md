@@ -57,7 +57,7 @@ Fig 1. A summary of the themes considered to be within scope for reduction to ze
 * [07 Business travel (public transport, greyfleet etc.)](/Chapters/007_kmsimg_businesstravel.md)
 * [08 Waste](/Chapters/008_kmsimg_waste.md)
 * [09 Water](/Chapters/009_kmsimg_water.md)
-* [10 Metred dose inhalers](/Chapters/010_kmsimg_inhalers.md)
+* 10 Metred dose inhalers (coming soon!)
 
 **NHS Carbon Footprint Plus** (coming soon!)
 * 11 Medical devices
