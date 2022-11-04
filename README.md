@@ -80,7 +80,7 @@ https://user-images.githubusercontent.com/8417968/199349858-cedfdbd8-598f-4d08-b
 
 ## Emailware
 
-The NHS Emission Quantification Recipe Book is [emailware](https://en.wiktionary.org/wiki/emailware). Meaning, if you liked using this tool or it has helped you in any way, please send us an email at <kentcht.sustainability@nhs.net> with any feedback. We really appreciate it!
+The NHS Emission Quantification Recipe Book is [emailware](https://en.wiktionary.org/wiki/emailware). Meaning, if you liked using this tool or it has helped you in any way, please send us an email at <kentchft.sustainability@nhs.net> with any feedback. We really appreciate it!
 
 ## Acknowledgements
 
