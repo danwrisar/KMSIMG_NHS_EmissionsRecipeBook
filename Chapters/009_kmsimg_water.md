@@ -90,7 +90,7 @@ Where:
 
 Jeremy sources the[Department for Environment, Food and Rural Affairs (DEFRA) UK and England's carbon footprint to 2019: UK Full dataset 1990 - 2019, including conversion factors by SIC code](https://www.gov.uk/government/statistics/uks-carbon-footprint) dataset. Using the information most relevant to the period being assessed, Jeremy makes a note of the *GHG (kgCO2e per £)* value for 'Natural water; water treatment and supply services'.
 
-Jeremy then multiplies the costs for supply (£400) and treatment (£600) by the intensity metric sourced from DEFRA (0.215kgCO<sub>2</sub>e/£). Jeremy wants to report in tonnes, therefore divides the sum by 1,000 and then rounds to two decimal places. Along with adding their units (tCO<sub>2</sub>e), Jeremy adds the [RC] tag to support transparency around how this figure was calculated. The final value added to Jeremey’s report on emissions associated with water supply and treatment is 167.55tCO<sub>2</sub>e [RC].
+Jeremy then multiplies the costs for supply (£400) and treatment (£600) by the intensity metric sourced from DEFRA (0.215kgCO<sub>2</sub>e/£). Jeremy wants to report in tonnes, therefore divides the sum by 1,000 and then rounds to two decimal places. Along with adding their units (tCO<sub>2</sub>e), Jeremy adds the [RC] tag to support transparency around how this figure was calculated. The final value added to Jeremey’s report on emissions associated with water supply and treatment is 0.22tCO<sub>2</sub>e [RC].
 
 *Equation 9.4* A worked example of an RC calculation of emissions associated with supply and treatment of water.
 
