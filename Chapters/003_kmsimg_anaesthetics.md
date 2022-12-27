@@ -9,6 +9,8 @@
 ## Introduction
 
 ### Dependencies
+* [Association of Anaesthetists: The Real-Time Anaesthetic Gasses Calculator (Pierce, 2022)](https://anaesthetists.org/Home/Resources-publications/Environment/Guide-to-green-anaesthesia/Anaesthetic-gases-calculator) (Accessed: 30 July 2022)
+* 
 
 ### Acknowledgements
 
@@ -21,19 +23,19 @@ Dan Wright<sup>1</sup>
 ### Definition
 Emissions associated with the consumption of bottled and piped anaesthetic gasses including halothane, nitrous oxide, isoflurane, sevoflurane, and desflurane.
 
+## Calculations: Anaesthetic gasses per cylinder
+
 ### Data map
 
 | Description of data available  | Reduced calculation [RC]  | Standard calculation [SC] | Optimal calculation [OC] |
 | ------------------------------ |:---:| :---:| :---:|
+|  | |  |  |
+| Purchasing logs (litres) |  | X |  |
 |  |  |  |  |
-| Purchasing logs  |  | X |  |
-|  |  |  |  |
-
-### Calculations
 
 **Standard calculation: Bottled anaesthetic gasses**
 
-*Equation 3.2* The SC approach for bottled anaesthetic gasses.
+*Equation 3.2* The SC approach for emissions associated with anaesthetic gasses per cylinder.
 
 $$ 
 \frac{\left( \text{GasNomCap} \times \text{GasDen} \times \text{GloWarm} \right)}{1000}
@@ -45,7 +47,23 @@ Where:
 * GasDen = Density of the gas (kg/litre).
 * GloWarm = Global warming potential of the gas.
 
-## Examples
+## Calculations: Anaesthetic gasses by flow
+
+### Data map
+
+| Description of data available  | Reduced calculation [RC]  | Standard calculation [SC] | Optimal calculation [OC] |
+| ------------------------------ |:---:| :---:| :---:|
+| Estimated use (hours) | X |  |  |
+| Logged use (hours |  | X |  |
+|  |  |  |  |
+
+**Reduced calculation: Anaesthetic gasses by flow**
+
+
+
+**Standard calculation: Anaesthetic gasses by flow**
+
+## Examples: Anaesthetic gasses per cylinder
 
 **Standard Calculation: Bottled anaesthetic gasses**
 
@@ -53,12 +71,11 @@ Karl sources purchase logs from his procurement contact for bottled nitrous oxid
 
 Karl refers to a verified source, such as [The Association of Anaesthetists](https://anaesthetists.org/Home/Resources-publications/Environment/Guide-to-green-anaesthesia/Anaesthetic-gases-calculator) website, for a global warming potential figure for nitrous oxide (310). He wants to report in tonnes, therefore divides the sum by 1,000 and rounds to two decimal places. 
 
-Along with adding his units (tCO<sub>2</sub>e), Karl adds the [SC] tag to support transparency around how this figure was calculated using a reduced data calculation method. The final value added to Stu’s report on emissions associated with natural gas consumption was 167.55tCO<sub>2</sub>e [SC].
+Along with adding his units (tCO<sub>2</sub>e), Karl adds the [SC] tag to support transparency around how this figure was calculated using a reduced data calculation method. The final value added to Karl’s report on emissions associated with natural gas consumption was 167.55tCO<sub>2</sub>e [SC].
 
-*Equation 3.5* A worked example of an RC calculation of emissions associated with natural gas consumption.
+*Equation 3.5* A worked example of an SC calculation of emissions associated with natural gas consumption.
 
 $$ 
 \frac{\left( 45000 \times 0.0018 \times 310 \right)}{1000}
 =  25.11 \text{tCO}_2\text{e} \text{ [SC]}
 $$
-
