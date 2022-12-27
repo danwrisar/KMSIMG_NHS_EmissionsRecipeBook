@@ -39,9 +39,9 @@ Where:
 * GasDen = Density of the gas (kg/litre).
 * GloWarm = Global warming potential of the gas.
 
-## Calculations: Anaesthetic gasses by flow
+### Calculations: Anaesthetic gasses by flow
 
-### Data map
+**Data map**
 
 | Description of data available  | Reduced calculation [RC]  | Standard calculation [SC] | Optimal calculation [OC] |
 | ------------------------------ |:---:| :---:| :---:|

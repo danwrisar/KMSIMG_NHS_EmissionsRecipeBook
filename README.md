@@ -84,19 +84,33 @@ The NHS Emission Quantification Recipe Book is [emailware](https://en.wiktionary
 
 ## Acknowledgements
 
+### Authors and CRediT statement
 
+Dan Wright<sup>1</sup>: Conceptualisation, Methodology, Validation, Formal Analysis, Investigation, Writing - Original Draft, Writing- Reviewing and Editing, Visualisation, Supervision and Project Administration.
 
+Vicky Cooper<sup>2</sup> and Stu Meades<sup>3</sup>: Methodology and Resources.
 
-## Credits
+James Bate <sup>4</sup>, Paul Davis<sup>5</sup>, Julia Hart<sup>6</sup>, Emma Lee-Jarman<sup>1</sup>,Finn Nightingale<sup>1</sup>, Alison Watson<sup>6</sup>: Methodology.
+
+1. Kent Community Health NHS Foundation Trust
+2. Kent and Medway NHS and Social Care Mental Health Trust 
+3. Greener Edge Ltd.
+4. Greener NHS
+5. Maidstone and Tunbridge Wells NHS Trust
+6. Kent and Medway Integrated Care Board
+   
+### Credits
 
 - Version badge created on [Shields.io](https://shields.io/)
 - The documents have been developed in [GitHub-flavoured MarkDown](https://github.github.com/gfm/). 
 
 ## You may also like...
 
-- [The Context of Vehicle Emissions (COVE) Tool](https://github.com/dvsa)
-- [NHS PyCom](https://github.com/nhs-pycom/nhs.pycom)
+- [Context of Vehicle Emissions (COVE) Tool](https://github.com/dvsa)
+- [Contributor Roles Taxonomy (CRediT)](https://www.elsevier.com/authors/policies-and-guidelines/credit-author-statement)
 - [Kent Community Health NHS Foundation Trust](https://kentcht.nhs.uk)
+- [NHS Python Community (PyCom)](https://github.com/nhs-pycom/nhs.pycom)
+
 
 ## License
 
@@ -104,4 +118,5 @@ MIT
 
 ## Change log
 
+* 27/12/2022 - Updated to include authors in readme.md alongside a CRediT statement for transparency.
 * 04/11/2022 - The first externally-accesible release of the NHS Emission Quantification Recipe Book! The .pdf and .epub versions for general consumption will be released in December 2022. 

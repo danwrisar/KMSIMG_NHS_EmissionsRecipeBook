@@ -1,43 +1,31 @@
 # 01 Fossil Fuels
 
 <p align="center">
-  <a href="#introduction">Introduction</a> •
+  <a href="#dependencies">Depedencies</a> •
+  <a href="#definition">Definition</a> •
   <a href="#methodology">Methodology</a> •
   <a href="#examples">Examples</a>
 </p>
 
-## Introduction
-
-### Dependencies
+## Dependencies
 
 * [Department for Business, Energy and Industrial Strategy (BEIS) conversion factors for company reporting](https://www.gov.uk/government/collections/government-conversion-factors-for-company-reporting) (Accessed: 22 July 2022)
 * [Department for Levelling Up, Housing and Communities (DLUHC) energy certificate repository](https://www.gov.uk/find-energy-certificate) (Accessed: 02 November 2022)
 
-### Acknowledgements
-
-Dan Wright<sup>1</sup>, James Bate <sup>2</sup>, Vicky Cooper<sup>3</sup>, Emma Lee-Jarman<sup>1</sup>, Stu Meades<sup>5</sup>, Finn Nightingale<sup>1</sup> & Alison Watson<sup>6</sup>.
-
-1. Kent Community Health NHS Foundation Trust
-2. Greener NHS
-3. Kent and Medway NHS and Social Care Mental Health Trust 
-4. Kent County Council
-5. Greener Edge Ltd.
-6. Kent and Medway Integrated Care Board
+## Definition
+Emissions associated with the combustion of any gaseous, liquid, and solid fossil fuels at owned sites and tenanted sites where the reporter holds billing responsibility to the energy supplier.
 
 ## Methodology
 
-### Definition
-Emissions associated with the combustion of any gaseous, liquid, and solid fossil fuels at owned sites and tenanted sites where the reporter holds billing responsibility to the energy supplier.
+### Calculations: Natural gas
 
-### Data map
+**Data map**
 
 | Description of data available  | Reduced calculation [RC]  | Standard calculation [SC] | Optimal calculation [OC] |
 | ------------------------------ |:---:| :---:| :---:|
 | Modelled energy consumption | X |  |  |
 | Monitored annual consumption, ≥11% estimated (kWh) |  | X |  |
 | Monitored annual consumption, ≤10% estimated (kWh) |  |  | X |
-
-### Calculations
 
 **Reduced calculation: Natural gas**
 
