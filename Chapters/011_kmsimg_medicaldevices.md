@@ -89,6 +89,17 @@ graph TD;
     C-->D;
 ```
 
+```flow
+st=>start: Start
+op=>operation: Your Operation
+cond=>condition: Yes or No?
+e=>end
+
+st->op->cond
+cond(yes)->e
+cond(no)->op
+```
+
 * Can *Mick's Dental Bazaar* provide a more accurate estimation of estimation for emissions associated with the spend?
 
 If the estimation value is agreed...
