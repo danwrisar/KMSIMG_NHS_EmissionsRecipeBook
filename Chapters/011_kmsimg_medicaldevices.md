@@ -83,8 +83,8 @@ IF NO:
 
 ```mermaid
 graph TD;
-    Estimation agreed? --> Yes;
-    Estimation agreed? --> No;
+    Estimation agreed?-->Yes;
+    Estimation agreed?-->No;
     B-->D;
     C-->D;
 ```
