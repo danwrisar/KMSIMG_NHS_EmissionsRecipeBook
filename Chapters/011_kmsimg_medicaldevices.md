@@ -83,11 +83,13 @@ IF NO:
 
 ```mermaid
 graph TD;
-    Estimation agreed?-->Yes;
-    Estimation agreed?-->No;
-    B-->D;
-    C-->D;
+    A[Estimation verified?] -->|Yes| B(Report value with OC tag)
+    A[Estimation verified?] -->|No| C
+    C[Supplier corrected?] --> |Yes| D(Report new value with OC tag)
+    C[Supplier corrected?] --> |No| E(Report with SC tag)
 ```
+
+[![](https://mermaid.ink/img/pako:eNqFkE1Ow0AMha9ieQVSe4EsqCDpFiTSDXRYWBm3GZH5keNphZrenSlRloBXtvXe92RfsIuWscKjUOph15gApR7321GdJ3UxwInFHRzbzQes1w_TG48TPN29coqicKIhM5yd9vBSg9Lx_n_Cc5ygnmX1vs0pDY4FuijCnS4qmIOaJSjw-dewvyi3sO0C-bG2sxVX6Fk8OVvOv9xABrVnzwar0lqST4MmXIuOssb2K3RYqWReYU6WlBtH5WseqwMNY9kmCu8xLvP1G08Dc_0?type=png)](https://mermaid.live/edit#pako:eNqFkE1Ow0AMha9ieQVSe4EsqCDpFiTSDXRYWBm3GZH5keNphZrenSlRloBXtvXe92RfsIuWscKjUOph15gApR7321GdJ3UxwInFHRzbzQes1w_TG48TPN29coqicKIhM5yd9vBSg9Lx_n_Cc5ygnmX1vs0pDY4FuijCnS4qmIOaJSjw-dewvyi3sO0C-bG2sxVX6Fk8OVvOv9xABrVnzwar0lqST4MmXIuOssb2K3RYqWReYU6WlBtH5WseqwMNY9kmCu8xLvP1G08Dc_0)
 
 * Can *Mick's Dental Bazaar* provide a more accurate estimation of estimation for emissions associated with the spend?
 
