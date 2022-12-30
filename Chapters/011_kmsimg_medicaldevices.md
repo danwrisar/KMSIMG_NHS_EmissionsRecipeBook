@@ -67,7 +67,7 @@ Edgar requests purchasing records for the period he is interested from his finan
 | Insulin pumps | 20,000.00 | Wholesale of pharmaceutical goods | Medical devices |
 | ... | ... | ... | ... |
 
-Edgar uses the SIC weightings associated with the *manufacture of medical and dental instruments and supplies* (0.725kgCO<sub>2</sub>e/£) and *wholesale of pharmaceutical goods* (0.377kgCO<sub>2</sub>e/£) and multiplies the spends as relevant. In this example, we will assume only two spends were associated with medical devices. Edgar wants to report in tonnes, therefore divides the sum by 1,000 and rounds to two decimal places. Along with adding his units (tCO<sub>2</sub>e), Edgar adds the [RC] tag to support transparency around how this figure was calculated. The final value added to Edgar's report on emissions associated with procurement of medical devices is 22.47tCO<sub>2</sub>e [RC].
+Edgar uses the SIC weightings associated with the *manufacture of medical and dental instruments and supplies* (0.725kgCO<sub>2</sub>e/£) and *wholesale of pharmaceutical goods* (0.377kgCO<sub>2</sub>e/£) and multiplies the spends as relevant. In this example, we will assume only two spends were associated with medical devices. Edgar wants to report in tonnes, therefore divides the sum by 1,000 and rounds to two decimal places (Equation 11.4). Along with adding his units (tCO<sub>2</sub>e), Edgar adds the [RC] tag to support transparency around how this figure was calculated. The final value added to Edgar's report on emissions associated with procurement of medical devices is 22.47tCO<sub>2</sub>e [RC].
 
 *Equation 11.4* A worked example of calculating emissions associated with procurement of medical devices using an RC approach.
 
@@ -76,7 +76,13 @@ $$\frac{\left( \text{3400} \times \text{0.725} \right) + \left( \text{20000} \ti
 
 **Standard calculation: Medical devices**
 
-Juno requests purchasing records for the period they are interested from their finance or procurement colleagues. The records shared are split into spend per supplier (e.g. £7,200.00 spend at *Mick's Dental Bazaar*). Juno uses the [company information finder at Companies House](https://find-and-update.company-information.service.gov.uk/) to locate the SIC code attributed to the supplier. Juno then uses the Standard Industrial Code (SIC) multipliers tab in the relevant [DEFRA emissions dataset](https://www.gov.uk/government/statistics/uks-carbon-footprint) to source the weight associated with the SIC code for that supplier. Juno also assigns a relevant Greener NHS theme to support with grouping spend to be included in this assessment (Table 11.2).
+Juno requests purchasing records for the period they are interested from their finance or procurement colleagues. The records shared are split into spend per supplier (e.g. £7,200.00 spend at *Mick's Dental Bazaar*). Juno uses the [company information finder at Companies House](https://find-and-update.company-information.service.gov.uk/) to locate the SIC code attributed to the supplier (Fig 11.1). 
+
+![Example of companies house search result](Images/CompaniesHouse_Example.png)
+
+*Figure 11.1* An example of the result from searching for the fictious company 'Mick's Dental Bazaar'. The SIC code relevant to the business is featured in the *Nature of business (SIC)* field.
+
+Juno then uses the Standard Industrial Code (SIC) multipliers tab in the relevant [DEFRA emissions dataset](https://www.gov.uk/government/statistics/uks-carbon-footprint) to source the weight associated with the SIC code for that supplier. Juno also assigns a relevant Greener NHS theme to support with grouping spend to be included in this assessment (Table 11.2).
 
 *Table 11.2* An example of per-supplier expenditure accounts annotated with SIC category and Greener NHS theme.
 | Supplier name | Total spend (£) | SIC category | Greener NHS theme |
@@ -85,7 +91,7 @@ Juno requests purchasing records for the period they are interested from their f
 | InsulinCorp | 50,000.00 | Wholesale of pharmaceutical goods | Medical devices |
 | ... | ... | ... | ... |
 
-Juno uses the SIC weightings associated with the *manufacture of medical and dental instruments and supplies* (0.725kgCO<sub>2</sub>e/£) and *wholesale of pharmaceutical goods* (0.377kgCO<sub>2</sub>e/£) and multiplies the spends as relevant. In this example, we will assume only two spends were associated with medical devices. Juno wants to report in tonnes, therefore divides the sum by 1,000 and rounds to two decimal places. Along with adding their units (tCO<sub>2</sub>e), Juno adds the [SC] tag to support transparency around how this figure was calculated. The final value added to Juno's report on emissions associated with procurement of medical devices is 24.07tCO<sub>2</sub>e [SC].
+Juno uses the SIC weightings associated with the *manufacture of medical and dental instruments and supplies* (0.725kgCO<sub>2</sub>e/£) and *wholesale of pharmaceutical goods* (0.377kgCO<sub>2</sub>e/£) and multiplies the spends as relevant. In this example, we will assume only two spends were associated with medical devices. Juno wants to report in tonnes, therefore divides the sum by 1,000 and rounds to two decimal places (Equation 11.5). Along with adding their units (tCO<sub>2</sub>e), Juno adds the [SC] tag to support transparency around how this figure was calculated. The final value added to Juno's report on emissions associated with procurement of medical devices is 24.07tCO<sub>2</sub>e [SC].
 
 *Equation 11.5* A worked example of calculating emissions associated with procurement of medical devices using an SC approach.
 
@@ -132,4 +138,4 @@ graph TD;
     C[Supplier corrected?] --> |Yes| D(Report new value with OC tag)
     C[Supplier corrected?] --> |No| E(Report with SC tag)
 ```
-*Figure 11.1* A visualisation of a decision flow around calculation justification following communication and response, or lack thereof, from supplier in question.
+*Figure 11.2* A visualisation of a decision flow around calculation justification following communication and response, or lack thereof, from supplier in question.
