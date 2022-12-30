@@ -10,6 +10,7 @@
 ## Dependencies
 
 * [Official statistics: UK and England's carbon footprint to 2019 - UK full dataset 1990 - 2019, including conversion factors by SIC code (Department for Environment, Food and Rural Affairs, 2022)](https://www.gov.uk/government/statistics/uks-carbon-footprint) (Accessed 27 December 2022)
+* [Find and update company information (Companies House, 2022)](https://find-and-update.company-information.service.gov.uk/) (Accessed 30 December 2022)
 
 ## Definition
 
@@ -23,7 +24,7 @@ Emissions associated with the manufacture, operation and disposal of medical dev
 | ------------------------------ |:---:| :---:| :---:|
 | Per category purchasing (£) | X |  |  |
 | Per supplier purchasing (£) |  | X |  |
-| Supplier verification |  |  | X |
+| Supplier verification or correction |  |  | X |
 
 **Reduced calculation: Medical devices**
 
@@ -41,7 +42,7 @@ Where:
 *Equation 11.2* The SC approach for calculating emissions associated with procurement of medical devices.
 
 $$ 
-\frac{\left( \text{MedDev2Spend} \times \text{MedDev1Factor} \right) + \left( \text{MedDev2Spend} \times \text{MedDev2Factor} \right) ...}
+\frac{\left( \text{MedDevSupplier1Spend} \times \text{MedDevSupplier1Factor} \right) + \left( \text{MedDevSupplier2Spend} \times \text{MedDevSupplier2Factor} \right) ...}
 {1000} = \text{tCO}_2\text{e} \text{ [RC]}
 $$
 
@@ -57,15 +58,39 @@ See the <a href="#examples">example</a> for optimal calculation of emissions ass
 
 **Reduced calculation: Medical devices**
 
-*Equation X.1* The RC approach for XXXXXX.
+Edgar requests purchasing records for the period he is interested from his finance or procurement colleagues. The records shared are, as is often the case, split into descriptive accounting themes (e.g. £3,400.00 spend on *dental consumables*). Edgar uses the Standard Industrial Code (SIC) multipliers tab in the relevant [DEFRA emissions dataset](https://www.gov.uk/government/statistics/uks-carbon-footprint) to map this descriptor to the most relevant category to describe the destination of the spend (e.g. *Manufacture of medical dental instruments and suppliers*). Then, Edgar assigns a relevant Greener NHS theme to support with grouping spend to be included in this assessment (Table 11.1).
 
-$$\frac{\left( \text{ModCon} \times \text{A} \right) \times \text{Fac}}
-{1000} = \text{tCO}_2\text{e} \text{ [RC]}$$
+*Table 11.1* An example of categorical expenditure accounts annotated with SIC category and Greener NHS theme.
+| Descriptor | Total spend (£) | SIC category | Greener NHS theme |
+| :--------- | :--- | :--- | :--- |
+| Dental consumables | 3,400.00 | Manufacture of medical and dental instruments and supplies | Medical devices |
+| Insulin pumps | 20,000.00 | Wholesale of pharmaceutical goods | Medical devices |
+| ... | ... | ... | ... |
 
-Where:
-* XXX = XXX
+Edgar uses the SIC weightings associated with the *manufacture of medical and dental instruments and supplies* (0.725kgCO<sub>2</sub>e/£) and *wholesale of pharmaceutical goods* (0.377kgCO<sub>2</sub>e/£) and multiplies the spends as relevant. In this example, we will assume only two spends were associated with medical devices. Edgar wants to report in tonnes, therefore divides the sum by 1,000 and rounds to two decimal places. Along with adding his units (tCO<sub>2</sub>e), Edgar adds the [RC] tag to support transparency around how this figure was calculated. The final value added to Edgar's report on emissions associated with procurement of medical devices is 22.47tCO<sub>2</sub>e [RC].
+
+*Equation 11.4* A worked example of calculating emissions associated with procurement of medical devices using an RC approach.
+
+$$\frac{\left( \text{3400} \times \text{0.725} \right) + \left( \text{20000} \times \text{0.377} \right)}
+{1000} = 22.47 \text{tCO}_2\text{e} \text{ [RC]}$$
 
 **Standard calculation: Medical devices**
+
+Juno requests purchasing records for the period they are interested from their finance or procurement colleagues. The records shared are split into spend per supplier (e.g. £7,200.00 spend at *Mick's Dental Bazaar*). Juno uses the [company information finder at Companies House](https://find-and-update.company-information.service.gov.uk/) to locate the SIC code attributed to the supplier. Juno then uses the Standard Industrial Code (SIC) multipliers tab in the relevant [DEFRA emissions dataset](https://www.gov.uk/government/statistics/uks-carbon-footprint) to source the weight associated with the SIC code for that supplier. Juno also assigns a relevant Greener NHS theme to support with grouping spend to be included in this assessment (Table 11.2).
+
+*Table 11.2* An example of per-supplier expenditure accounts annotated with SIC category and Greener NHS theme.
+| Supplier name | Total spend (£) | SIC category | Greener NHS theme |
+| :--------- | :--- | :--- | :--- |
+| Mick's Dental Bazaar | 7,200.00 | Manufacture of medical and dental instruments and supplies | Medical devices |
+| InsulinCorp | 50,000.00 | Wholesale of pharmaceutical goods | Medical devices |
+| ... | ... | ... | ... |
+
+Juno uses the SIC weightings associated with the *manufacture of medical and dental instruments and supplies* (0.725kgCO<sub>2</sub>e/£) and *wholesale of pharmaceutical goods* (0.377kgCO<sub>2</sub>e/£) and multiplies the spends as relevant. In this example, we will assume only two spends were associated with medical devices. Juno wants to report in tonnes, therefore divides the sum by 1,000 and rounds to two decimal places. Along with adding their units (tCO<sub>2</sub>e), Juno adds the [SC] tag to support transparency around how this figure was calculated. The final value added to Juno's report on emissions associated with procurement of medical devices is 24.07tCO<sub>2</sub>e [SC].
+
+*Equation 11.5* A worked example of calculating emissions associated with procurement of medical devices using an SC approach.
+
+$$\frac{\left( \text{7200} \times \text{0.725} \right) + \left( \text{50000} \times \text{0.377} \right)}
+{1000} = 24.07 \text{tCO}_2\text{e} \text{ [RC]}$$
 
 **Optimal calculation: Medical devices**
 
