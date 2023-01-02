@@ -30,25 +30,25 @@ Emissions associated with the manufacture, operation and disposal of medical dev
 
 *Equation 11.1* The RC approach for calculating emissions associated with procurement of medical devices.
 
-$$\frac{\left( \text{MedDev1Spend} \times \text{MedDev1Factor} \right) + \left( \text{MedDev2Spend} \times \text{MedDev2Factor} \right) ...}
+$$\frac{\left( \text{Element1Spend} \times \text{Element1Factor} \right) + \left( \text{Element2Spend} \times \text{Element2Factor} \right) ...}
 {1000} = \text{tCO}_2\text{e} \text{ [RC]}$$
 
 Where:
-* MedDev*n*Spend = The spend on an element (e.g. x-ray machine purchase) mapped to the theme of medical devices (£).
-* MedDev*n*Factor = The weighting assigned to the element through the Standard Industrial Code (SIC) multipliers tab in the relevant [DEFRA emissions dataset](https://www.gov.uk/government/statistics/uks-carbon-footprint) mapped to the theme of medical devices (kgCO<sub>2</sub>e/£). 
+* Element*n*Spend = The spend on a relevant element (e.g. hire of x-ray machine) mapped by the assessor (£).
+* Element*n*Factor = The weighting assigned through the Standard Industrial Code (SIC) multipliers tab in the relevant [DEFRA emissions dataset](https://www.gov.uk/government/statistics/uks-carbon-footprint) mapped by the assessor (kgCO<sub>2</sub>e/£). 
 
 **Standard calculation: Medical devices**
 
 *Equation 11.2* The SC approach for calculating emissions associated with procurement of medical devices.
 
 $$ 
-\frac{\left( \text{MedDevSupplier1Spend} \times \text{MedDevSupplier1Factor} \right) + \left( \text{MedDevSupplier2Spend} \times \text{MedDevSupplier2Factor} \right) ...}
+\frac{\left( \text{Supplier1Spend} \times \text{Supplier1Factor} \right) + \left( \text{Supplier2Spend} \times \text{Supplier2Factor} \right) ...}
 {1000} = \text{tCO}_2\text{e} \text{ [RC]}
 $$
 
 Where:
-* MedDevSupplier*n*Spend = The spend per supplier with an assigned Standard Industrial Code (SIC) mapped to the theme of medical devices (£).
-* MedDevSupplier*n*Factor = The weighting assigned to the element through the Standard Industrial Code (SIC) multipliers tab in the relevant [DEFRA emissions dataset](https://www.gov.uk/government/statistics/uks-carbon-footprint) mapped to the theme of medical devices (kgCO<sub>2</sub>e/£). 
+* Supplier*n*Spend = The spend per supplier with an assigned Standard Industrial Code (SIC) mapped to the theme of medical devices (£).
+* Supplier*n*Factor = The weighting assigned through the Standard Industrial Code (SIC) multipliers tab in the relevant [DEFRA emissions dataset](https://www.gov.uk/government/statistics/uks-carbon-footprint) mapped by the CompaniesHouse (kgCO<sub>2</sub>e/£). 
 
 **Optimal calculation: Medical devices**
 
@@ -67,9 +67,9 @@ Edgar requests purchasing records for the period he is interested from his finan
 | Insulin pumps | 20,000.00 | Wholesale of pharmaceutical goods | Medical devices |
 | ... | ... | ... | ... |
 
-Edgar uses the SIC weightings associated with the *manufacture of medical and dental instruments and supplies* (0.725kgCO<sub>2</sub>e/£) and *wholesale of pharmaceutical goods* (0.377kgCO<sub>2</sub>e/£) and multiplies the spends as relevant. In this example, we will assume only two spends were associated with medical devices. Edgar wants to report in tonnes, therefore divides the sum by 1,000 and rounds to two decimal places (Equation 11.4). Along with adding his units (tCO<sub>2</sub>e), Edgar adds the [RC] tag to support transparency around how this figure was calculated. The final value added to Edgar's report on emissions associated with procurement of medical devices is 22.47tCO<sub>2</sub>e [RC].
+Edgar uses the SIC weightings associated with the *manufacture of medical and dental instruments and supplies* (0.725kgCO<sub>2</sub>e/£) and *wholesale of pharmaceutical goods* (0.377kgCO<sub>2</sub>e/£) and multiplies the element spends as relevant. In this example, we will assume that only two spends were associated with medical devices. Edgar wants to report in tonnes, therefore divides the sum by 1,000 and rounds to two decimal places (Equation 11.3). Along with adding his units (tCO<sub>2</sub>e), Edgar adds the [RC] tag to support transparency around how this figure was calculated. The final value added to Edgar's report on emissions associated with procurement of medical devices is 22.47tCO<sub>2</sub>e [RC].
 
-*Equation 11.4* A worked example of calculating emissions associated with procurement of medical devices using an RC approach.
+*Equation 11.3* A worked example of calculating emissions associated with procurement of medical devices using an RC approach.
 
 $$\frac{\left( \text{3400} \times \text{0.725} \right) + \left( \text{20000} \times \text{0.377} \right)}
 {1000} = 22.47 \text{tCO}_2\text{e} \text{ [RC]}$$
@@ -82,7 +82,7 @@ Juno requests purchasing records for the period they are interested from their f
 
 *Figure 11.1* An example of the result from searching for the fictious company 'Mick's Dental Bazaar'. The SIC code relevant to the business is featured in the *Nature of business (SIC)* field.
 
-Juno then uses the Standard Industrial Code (SIC) multipliers tab in the relevant [DEFRA emissions dataset](https://www.gov.uk/government/statistics/uks-carbon-footprint) to source the weight associated with the SIC code for that supplier. Juno also assigns a relevant Greener NHS theme to support with grouping spend to be included in this assessment (Table 11.2).
+Juno then uses the Standard Industrial Code (SIC) multipliers tab in the relevant [DEFRA emissions dataset](https://www.gov.uk/government/statistics/uks-carbon-footprint) to source the emissions weighting associated with the SIC code for that supplier. Juno also assigns a relevant Greener NHS theme to support with grouping spend to be included in this assessment (Table 11.2).
 
 *Table 11.2* An example of per-supplier expenditure accounts annotated with SIC category and Greener NHS theme.
 | Supplier name | Total spend (£) | SIC category | Greener NHS theme |
@@ -91,16 +91,16 @@ Juno then uses the Standard Industrial Code (SIC) multipliers tab in the relevan
 | InsulinCorp | 50,000.00 | Wholesale of pharmaceutical goods | Medical devices |
 | ... | ... | ... | ... |
 
-Juno uses the SIC weightings associated with the *manufacture of medical and dental instruments and supplies* (0.725kgCO<sub>2</sub>e/£) and *wholesale of pharmaceutical goods* (0.377kgCO<sub>2</sub>e/£) and multiplies the spends as relevant. In this example, we will assume only two spends were associated with medical devices. Juno wants to report in tonnes, therefore divides the sum by 1,000 and rounds to two decimal places (Equation 11.5). Along with adding their units (tCO<sub>2</sub>e), Juno adds the [SC] tag to support transparency around how this figure was calculated. The final value added to Juno's report on emissions associated with procurement of medical devices is 24.07tCO<sub>2</sub>e [SC].
+Juno uses the SIC weightings associated with the *manufacture of medical and dental instruments and supplies* (0.725kgCO<sub>2</sub>e/£) and *wholesale of pharmaceutical goods* (0.377kgCO<sub>2</sub>e/£) and multiplies the spends with Mick's Dental Bazaar and InsulinCorp as relevant. In this example, we will assume only two spends were associated with medical devices. Juno wants to report in tonnes, therefore divides the sum by 1,000 and rounds to two decimal places (Equation 11.4). Along with adding their units (tCO<sub>2</sub>e), Juno adds the [SC] tag to support transparency around how this figure was calculated. The final value added to Juno's report on emissions associated with procurement of medical devices is 24.07tCO<sub>2</sub>e [SC].
 
-*Equation 11.5* A worked example of calculating emissions associated with procurement of medical devices using an SC approach.
+*Equation 11.4* A worked example of calculating emissions associated with procurement of medical devices using an SC approach.
 
 $$\frac{\left( \text{7200} \times \text{0.725} \right) + \left( \text{50000} \times \text{0.377} \right)}
-{1000} = 24.07 \text{tCO}_2\text{e} \text{ [RC]}$$
+{1000} = 24.07 \text{tCO}_2\text{e} \text{ [SC]}$$
 
 **Optimal calculation: Medical devices**
 
-> To achieve a denotation an optimal calculation of emissions associated with the procurement of medical devices, it is necessary to obtain verified impacts from suppliers. The estimated value(s) acquired through the standard calculation approach offers a valuable means to initiate and progress conversations with suppliers with the objective of obtaining a more accurate footprint associated with purchasing from a supplier. Should a supplier be unable to verify, this offers opportunities for introduction of specific key performance indicators in future contract negotations or re-tenders for services and/or products.
+> To achieve an optimal calculation of emissions associated with the procurement of medical devices, it is necessary to obtain verified impacts from suppliers. The estimated value(s) acquired through the standard calculation approach offers a valuable means to initiate and progress conversations with suppliers with the objective of obtaining a more accurate footprint associated with purchasing from a supplier. Should a supplier be unable to verify, this offers opportunities for introduction of specific key performance indicators in future contract negotations or re-tenders for services and/or products.
 
 Sandra follows the standard calculation approach to acquire a value for emissions associated with spend on medical devices at a supplier called *Mick's Dental Bazaar* (10.2tCO<sub>2</sub>e). Sandra works with her procurement colleagues to understand the nature of the purchase, such as whether there is a contract in place, and if so, if there may be any pertinent key performance indicators and if the contract may be upcoming for renewal.
 
@@ -110,26 +110,26 @@ With support as necessary from her procurement colleagues, Sandra contacts the a
 * Can *Mick's Dental Bazaar* provide a more accurate estimation of estimation for emissions associated with the spend?
 * If *Mick's Dental Bazaar* cannot verify or correct the estimate, when could a supplier-led footprint be expected?
 
-In Sandra's case, she received a reply from *Mick's Dental Bazaar* stating that the estimate could neither be confirmed nor rejected. Following Sandra's request for improved data, *Mick's Dental Bazaar* shared information contained in an emissions footprint analysis calculated across their whole business. In addition to requesting further information around the categories included in the assessment undertaken by *Mick's Dental Bazaar* (e.g. was this a full scope analysis or restricted to scopes one and two?), Sandra requests a value for total income over the period, estimating that this could be one way to apportion impact based on spend (Equation 11.6). 
+In Sandra's case, she received a reply from *Mick's Dental Bazaar* stating that the estimate could neither be confirmed nor rejected. Following Sandra's request for improved data, *Mick's Dental Bazaar* shared information contained in an emissions footprint analysis calculated across their whole business. In addition to requesting further information around the categories included in the assessment undertaken by *Mick's Dental Bazaar* (e.g. was this a full scope analysis or restricted to scopes one and two?), Sandra requests a value for total income over the period, estimating that this could be one way to apportion impact based on spend (Equation 11.5). 
 
-*Equation 11.6* An approach to estimating percentage of supplier emissions that can be apportioned to a spend.
+*Equation 11.5* An approach to estimating percentage of supplier emissions that can be apportioned to a spend.
 
 $$\frac{\left( \text{MedDevSupplier1Foot} \div \text{MedDevSupplier1FullInc} \right) \times \text{MedDevSupplier1Spend}}
 {1000} = \text{tCO}_2\text{e} \text{ [OC]}$$
 
 Where:
-* MedDevSupplier*n*Foot = The supplier provided full business footprint (kgCO<sub>2</sub>e).
-* MedDevSupplier*n*FullInc = The supplier provided total income (£)
-* MedDevSupplier*n*Spend = The spend per supplier with an assigned SIC mapped to the theme of medical devices (£).
+* Supplier*n*Foot = The supplier provided full business footprint (kgCO<sub>2</sub>e).
+* Supplier*n*FullInc = The supplier provided total income (£)
+* Supplier*n*Spend = The assesor's spend on the supplier (£).
 
-Sandra divides the *Mick's Dental Bazaar* emissions footprint (40,000kgCO<sub>2</sub>e) by their gross income (£1,000,000) and then multiplies this by her spend with that supplier (£20,000). Sandra wants to report in tonnes, therefore divides the sum by 1,000 and rounds to two decimal places. Along with adding her units (tCO<sub>2</sub>e), Sandra adds the [OC] tag to support transparency around how this figure was calculated. The final value added to Sandra's report on emissions associated with procurement of medical devices, from this supplier, is 0.8tCO<sub>2</sub>e [OC].
+Sandra divides the *Mick's Dental Bazaar* emissions footprint (40,000kgCO<sub>2</sub>e) by their gross income (£1,000,000) and then multiplies this by her spend with that supplier (£20,000). Sandra wants to report in tonnes, therefore divides the sum by 1,000 and rounds to two decimal places (Equation 11.6). Along with adding her units (tCO<sub>2</sub>e), Sandra adds the [OC] tag to support transparency around how this figure was calculated(Equation 11.6). The final value added to Sandra's report on emissions associated with procurement of medical devices, from this supplier, is 0.8tCO<sub>2</sub>e [OC].
 
-*Equation 11.7* A worked example of apportioned emissions calculated from a total supplier impact.
+*Equation 11.6* A worked example of apportioned emissions calculated from a total supplier impact.
 
 $$\frac{\left( 40000 \div 1000000 \right) \times 20000}
 {1000} = 0.8 \text{tCO}_2\text{e} \text{ [OC]}$$
 
-A simplified flowchart is featured in Fig 11.1 to help visualise the situations in which featuring an [OC] tag could be justified.
+A simplified flowchart is featured in Fig 11.2 to help visualise the situations in which featuring an [OC] tag could be justified.
 
 ```mermaid
 graph TD;
