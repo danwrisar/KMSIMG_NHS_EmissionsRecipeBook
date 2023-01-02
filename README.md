@@ -63,7 +63,7 @@ Fig 1. A summary of the themes considered to be within scope for reduction to ze
 * [11 Medical devices](/Chapters/011_kmsimg_medicaldevices.md)
 * [12 Freight transport](/Chapters/012_kmsimg_freighttransport.md)
 * [13 Business services](/Chapters/013_kmsimg_businessservices.md)
-* 14 Construction
+* [14 Construction](/Chapters/014_kmsimg_construction.md)
 * 15 Manufacturing (products, chemicals, gases)
 * 16 Medicine
 * 17 Food & catering
@@ -86,7 +86,7 @@ The NHS Emission Quantification Recipe Book is [emailware](https://en.wiktionary
 
 ### Authors and CRediT statement
 
-Dan Wright<sup>1</sup>: Conceptualisation, Methodology, Validation, Formal Analysis, Investigation, Writing - Original Draft, Writing- Reviewing and Editing, Visualisation, Supervision and Project Administration.
+Dan Wright<sup>1</sup>: Conceptualisation, Methodology, Validation, Formal Analysis, Investigation, Writing - Original Draft, Writing- Reviewing and Editing, Visualisation, and Project Administration.
 
 Vicky Cooper<sup>2</sup> and Stu Meades<sup>3</sup>: Methodology and Resources.
 
