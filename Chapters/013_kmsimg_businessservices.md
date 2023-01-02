@@ -48,7 +48,7 @@ $$
 
 Where:
 * Supplier*n*Spend = The spend per supplier with an assigned Standard Industrial Code (SIC) mapped to the theme of business services (£).
-* Supplier*n*Factor = The weighting assigned through the Standard Industrial Code (SIC) multipliers tab in the relevant [DEFRA emissions dataset](https://www.gov.uk/government/statistics/uks-carbon-footprint) mapped by the CompaniesHouse (kgCO<sub>2</sub>e/£). 
+* Supplier*n*Factor = The weighting associated with the the Standard Industrial Code (SIC) assigned by Companies House as defined in the multipliers tab in the relevant [DEFRA emissions dataset](https://www.gov.uk/government/statistics/uks-carbon-footprint) (kgCO<sub>2</sub>e/£). 
 
 **Optimal calculation: Business services**
 
