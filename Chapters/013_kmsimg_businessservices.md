@@ -34,7 +34,7 @@ $$\frac{\left( \text{Element1Spend} \times \text{Element1Factor} \right) + \left
 {1000} = \text{tCO}_2\text{e} \text{ [RC]}$$
 
 Where:
-* Element*n*Spend = The spend on a relevant element (e.g. hire of x-ray machine) mapped by the assessor (£).
+* Element*n*Spend = The spend on a relevant element (e.g. accounting services) mapped by the assessor (£).
 * Element*n*Factor = The weighting assigned through the Standard Industrial Code (SIC) multipliers tab in the relevant [DEFRA emissions dataset](https://www.gov.uk/government/statistics/uks-carbon-footprint) mapped by the assessor (kgCO<sub>2</sub>e/£). 
 
 **Standard calculation: Business services**
