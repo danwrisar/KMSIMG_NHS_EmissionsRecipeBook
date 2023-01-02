@@ -14,7 +14,7 @@
 
 ## Definition
 
-Emissions associated with the process of construction provisioned by the reporting party including demolition and manufacture of building materials.
+Emissions associated with the process of construction and demolition provisioned by the reporting party including the manufacture of building materials.
 
 ## Methodology
 
