@@ -102,7 +102,7 @@ Finn Nightingale<sup>1</sup>: Project Administration.
 4. Greener NHS
 5. Kent County Council
 6. Maidstone and Tunbridge Wells NHS Trust
-7. Kent and Medway Integrated Care Board
+7. NHS Kent and Medway
    
 ### Credits
 
