@@ -59,18 +59,18 @@ Fig 1. A summary of the themes considered to be within scope for reduction to ze
 * [09 Water](/Chapters/009_kmsimg_water.md)
 * 10 Metred dose inhalers (coming soon!)
 
-**NHS Carbon Footprint Plus** (coming soon!)
+**NHS Carbon Footprint Plus**
 * [11 Medical devices](/Chapters/011_kmsimg_medicaldevices.md)
 * [12 Freight transport](/Chapters/012_kmsimg_freighttransport.md)
 * [13 Business services](/Chapters/013_kmsimg_businessservices.md)
 * [14 Construction](/Chapters/014_kmsimg_construction.md)
-* 15 Manufacturing (products, chemicals, gases)
-* 16 Medicine
-* 17 Food & catering
-* 18 Commissioned health services outside NHS
-* 19 ICT
-* 20 Staff commuting
-* 21 Patient and visitor travel
+* 15 Manufacturing (coming soon!)
+* 16 Medicine (coming soon!)
+* 17 Food & catering (coming soon!)
+* 18 Commissioned health services outside NHS (coming soon!)
+* 19 ICT (coming soon!)
+* 20 Staff commuting (coming soon!)
+* 21 Patient and visitor travel (coming soon!)
 
 ## Get involved
 
