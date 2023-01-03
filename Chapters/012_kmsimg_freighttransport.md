@@ -43,7 +43,7 @@ Where:
 
 $$ 
 \frac{\left( \text{Supplier1Spend} \times \text{Supplier1Factor} \right) + \left( \text{Supplier2Spend} \times \text{Supplier2Factor} \right) ...}
-{1000} = \text{tCO}_2\text{e} \text{ [RC]}
+{1000} = \text{tCO}_2\text{e} \text{ [SC]}
 $$
 
 Where:

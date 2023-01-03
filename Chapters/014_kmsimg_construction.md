@@ -43,7 +43,7 @@ Where:
 
 $$ 
 \frac{\left( \text{Supplier1Spend} \times \text{Supplier1Factor} \right) + \left( \text{Supplier2Spend} \times \text{Supplier2Factor} \right) ...}
-{1000} = \text{tCO}_2\text{e} \text{ [RC]}
+{1000} = \text{tCO}_2\text{e} \text{ [SC]}
 $$
 
 Where:
@@ -58,12 +58,12 @@ See the <a href="#examples">example</a> for optimal calculation of emissions ass
 
 **Reduced calculation: Construction**
 
-Ivan requests purchasing records for the period he is interested from his finance or procurement colleagues. The records shared are, as is often the case, split into descriptive accounting themes (e.g. £3,400.00 spend on *general couriers*). Ivan uses the Standard Industrial Code (SIC) multipliers tab in the relevant [DEFRA emissions dataset](https://www.gov.uk/government/statistics/uks-carbon-footprint) to map this descriptor to the most relevant category to describe the destination of the spend (e.g. *postal and courier services*). Then, Ivan assigns a relevant Greener NHS theme to support with grouping spend to be included in this assessment (Table 14.1).
+Ivan requests purchasing records for the period he is interested from his finance or procurement colleagues. The records shared are, as is often the case, split into descriptive accounting themes (e.g. £300,400.00 spend on *new administration building*). Ivan uses the Standard Industrial Code (SIC) multipliers tab in the relevant [DEFRA emissions dataset](https://www.gov.uk/government/statistics/uks-carbon-footprint) to map this descriptor to the most relevant category to describe the destination of the spend (e.g. *construction of commercial buildings*). Then, Ivan assigns a relevant Greener NHS theme to support with grouping spend to be included in this assessment (Table 14.1).
 
 *Table 14.1* An example of categorical expenditure accounts annotated with SIC category and Greener NHS theme.
 | Descriptor | Total spend (£) | SIC category | Greener NHS theme |
 | :--------- | :--- | :--- | :--- |
-| Tax accountants | 3,400.00 | Tax consultancy | Construction |
+| Tax accountants | 3,400.00 | Construction of commercial buildings | Construction |
 | Management consultants | 20,000.00 | Management consultancy activities other than financial management |
 | ... | ... | ... | ... |
 
