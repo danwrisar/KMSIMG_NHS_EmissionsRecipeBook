@@ -26,7 +26,7 @@ Key to the methodologies specified is the recognition that NHS organisations are
 * A *Standard Calculation* (SC) is intended to feature the minimum data that NHS organisations should be working towards sourcing and handling, for example, periodical energy consumption data.
 * An *Optimal Calculation* (OC) is intended to feature 'best in class' approaches to calculating accurate emissions, this may include using advanced tooling or higher resolution data, for example, half-hourly energy consumption data.
 
-By being transparent around which methodological approach has been used, either RC, SC or OC, this supports 'comparing apples to apples' both within and between [Integrated Care Systems](https://www.england.nhs.uk/integratedcare/what-is-integrated-care/). To demonstrate, here is a worked example for an RC approach to calculating emissions from natual gas use:
+By being transparent around which methodological approach has been used, either RC, SC or OC, this supports 'comparing apples to apples' both within and between [Integrated Care Systems](https://www.england.nhs.uk/integratedcare/what-is-integrated-care/). To demonstrate, here is a worked example for an RC approach to calculating emissions from natural gas use:
 
 > Stu sources the Display Energy Certification (DEC) for the building they are interested in using the [energy certificate repository](https://www.gov.uk/find-energy-certificate). Using information from the Building Energy Use figure, Stu multiplies the annual energy use of *other fuels* (328) by the *total useful floor area* for the building (2778.54). The calculated annual total consumption (911,361.12) is presented in kWh. 
 >
