@@ -121,5 +121,6 @@ MIT
 
 ## Change log
 
+* 04/01/2022 - The NHS Emission Quantification Recipe Book was shared with members of the Future NHS discussion forum.
 * 27/12/2022 - Updated to include authors in readme.md alongside a CRediT statement for transparency.
 * 04/11/2022 - The first externally-accesible release of the NHS Emission Quantification Recipe Book! The .pdf and .epub versions for general consumption will be released in December 2022. 
