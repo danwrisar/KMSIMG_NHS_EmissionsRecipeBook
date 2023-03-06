@@ -82,7 +82,7 @@ Juno requests purchasing records for the period they are interested from their f
 
 *Figure 11.1* An example of the result from searching for the fictious company 'Mick's Dental Bazaar'. The SIC code relevant to the business is featured in the *Nature of business (SIC)* field.
 
-Juno then uses the Standard Industrial Code (SIC) multipliers tab in the relevant [DEFRA emissions dataset](https://www.gov.uk/government/statistics/uks-carbon-footprint) to source the emissions weighting associated with the SIC code for that supplier. Juno also assigns a relevant Greener NHS theme to support with grouping spend to be included in this assessment (Table 11.2).
+Juno then uses the Standard Industrial Code (SIC) multipliers tab in the relevant [DEFRA emissions dataset](https://www.gov.uk/government/statistics/uks-carbon-footprint) to source the emissions weighting associated with the SIC code for that supplier. **INSERT HOW TO FIND SIC AS NOT CLEAR *** Juno also assigns a relevant Greener NHS theme to support with grouping spend to be included in this assessment (Table 11.2).
 
 *Table 11.2* An example of per-supplier expenditure accounts annotated with SIC category and Greener NHS theme.
 | Supplier name | Total spend (£) | SIC category | Greener NHS theme |
