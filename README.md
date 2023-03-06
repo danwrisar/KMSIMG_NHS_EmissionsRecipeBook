@@ -92,7 +92,7 @@ Dan Wright<sup>1</sup>: Conceptualisation, Methodology, Validation, Formal Analy
 
 Vicky Cooper<sup>2</sup> and Stu Meades<sup>3</sup>: Methodology and Resources.
 
-James Bate <sup>4</sup>, Sirina Blankson<sup>2</sup>, Emma Clarke<sup>5</sup>, Paul Davis<sup>6</sup>, Julia Hart<sup>6</sup>, Emma Lee-Jarman<sup>1</sup> and Alison Watson<sup>6</sup>: Methodology.
+James Bate<sup>4</sup>, Sirina Blankson<sup>2</sup>, Emma Clarke<sup>5</sup>, Paul Davis<sup>6</sup>, Julia Hart<sup>6</sup>, Emma Lee-Jarman<sup>1</sup> and Alison Watson<sup>6</sup>: Methodology.
 
 Finn Nightingale<sup>1</sup>: Project Administration.
 
