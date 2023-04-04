@@ -96,7 +96,7 @@ Andy receives confirmation from his energy supplier that the site he is interest
 
 By using the [BEIS Conversion Factors dataset for the year he is interested in (2019)](https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2019), Andy is able to source a value for emissions associated with generating electricty (0.2556kgCO<sub>2</sub>e/kWh). Andy wants to report in tonnes, therefore divides the sum by 1,000 and rounds to two decimal places. Along with adding his units (tCO<sub>2</sub>e), Andy adds the [SC] tag to support transparency around how this figure was calculated. The final value added to Andy’s annual report is 12.78tCO<sub>2</sub>e [SC].
 
-*Equation 6.5* A worked example of emissions associated with electricity consumption using an SC method.
+*Equation 5.5* A worked example of emissions associated with electricity consumption using an SC method.
 
 $$ 
 \frac{12780 \times 0.2556}

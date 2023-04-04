@@ -212,3 +212,50 @@ $$
 $$
 
 ![Visualisation of estimated compared to actual consumption](Images/AMRMeterReads_Gas.png)
+
+**Reduced calculation: Electricity (transmission and distribution)**
+
+Sam sources the Display Energy Certification (DEC) for the building she was interested in using the [energy certificate repository](https://www.gov.uk/find-energy-certificate). Using information from the Building Energy Use figure (Figure 6.1), Sam multiplied the annual energy use of electricity (107) by the total useful floor area for the building (2778.54). The calculated annual total consumption (297,303.78) was presented in kWh.
+
+By using the [BEIS Conversion Factors dataset for the year she is interested in (2019)](https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2019), Sam was able to source a value for emissions associated with transmission and distribution of generated electricity (0.02170kgCO<sub>2</sub>e/kWh). Sam wanted to report in tonnes, therefore divided the sum by 1,000. This value was then rounded to two decimal places. Along with adding their units (tCO<sub>2</sub>e), Sam added the [RC] tag to support transparency around how this figure was calculated using a reduced data calculation method. The final value added to Sam’s report on emissions associated with tranmissions and distribution of electricity was 6.45tCO<sub>2</sub>e [RC].
+
+*Equation 6.13* A worked example of emissions associated with electricity transmission and distribution using an RC method.
+
+$$ 
+\frac{\left( 107 \times 2778.54 \right) \times 0.02170}
+{1000} = 6.45\text{tCO}_2\text{e} \text{ [RC]}
+$$
+
+**Standard calculation: Electricity (transmission and distribution)**
+
+Cam receives confirmation from his energy supplier that the site he is interested in used 50,000kWh of electricity over the course of a year. The supplier also indicates that four months were estimated usage, including two months at the end of the year (Figure 6.3). Therefore, it can be suggested that 33% of the data underlying the period total consumption were estimated, and it is necessary to use the Standard Calculation methodology.
+
+By using the [BEIS Conversion Factors dataset for the year he is interested in (2019)](https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2019), Cam was able to source a value for emissions associated with transmission and distribution of generated electricity (0.02170kgCO<sub>2</sub>e/kWh). Cam wanted to report in tonnes, therefore divided the sum by 1,000. This value was then rounded to two decimal places. Along with adding their units (tCO<sub>2</sub>e), Cam added the [SC] tag to support transparency around how this figure was calculated using a standard calculation method. The final value added to Cam’s report on emissions associated with tranmissions and distribution of electricity was 6.45tCO<sub>2</sub>e [RC].
+
+*Equation 6.14* A worked example of emissions associated with electricity consumption using an SC method.
+
+$$ 
+\frac{50,000 \times 0.02170}
+{1000} = 1.09\text{tCO}_2\text{e} \text{ [SC]}
+$$
+
+![Visualisation of estimated compared to actual consumption](Images/EstimatedMeterReads_Elec.png)
+
+*Figure 6.3* A visualisation of actual and estimated electricity consumption data.
+
+**Optimal calculation: Electricity (transmission and distribution)**
+
+Kemi receives confirmation from her energy supplier that the site they are interested in used 18,000kWh of electricity over the course of a year. The supplier provides access to data from an installed Automated Meter Reader (AMR) and Kemi is able to spot four weeks where no electricity was being consumed unexpectedly (Figure 6.4). As such, data were missing for four weeks of a total 48 (for the sake of this example), equalling 8.33% of estimated or missing data and 91.67% of verified or intact data. It is possible to use the Optimal Calculation methodology.
+
+By using the [BEIS Conversion Factors dataset for the year they are interested in (2019)](https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2019), Kemi was able to source a value for emissions associated with transmission and distribution of generated electricity (0.02170kgCO<sub>2</sub>e/kWh). Kemi wanted to report in tonnes, therefore divided the sum by 1,000. This value was then rounded to two decimal places. Along with adding their units (tCO<sub>2</sub>e), Kemi added the [SC] tag to support transparency around how this figure was calculated using a standard calculation method. The final value added to Kemi’s report on emissions associated with tranmissions and distribution of electricity was 0.39tCO<sub>2</sub>e [RC].
+
+*Equation 6.15* A worked example of emissions associated with electricity consumption using an OC method.
+
+$$ 
+\frac{18,000 \times 0.02170}
+{1000} = 0.39 \text{tCO}_2\text{e} \text{ [OC]}
+$$
+
+![Visualisation of estimated compared to actual consumption](Images/AMRMeterReads_Elec.png)
+
+*Figure 6.4* A visualisation of actual and estimated electricity consumption split per week (simplified to 48 weeks across 12 months for demonstration purposes).
