@@ -69,13 +69,13 @@ Where:
 
 ## Examples
 
-**Reduced Data Calculation: Natural gas**
+**Reduced calculation: Natural gas**
 
 Stu sources the Display Energy Certification (DEC) for the building they are interested in using the [energy certificate repository](https://www.gov.uk/find-energy-certificate). Using information from the Building Energy Use figure, Stu multiplies the annual energy use of *other fuels* (328) by the *total useful floor area* for the building (2778.54). The calculated annual total consumption (911,361.12) is presented in kWh. 
 
 By using the [BEIS Conversion Factors dataset for the year they are interested in (2019)](https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2019), Stu is able to source a value for emissions per kWh of natural gas use assuming gross calorific value (0.18385kgCO<sub>2</sub>e/kWh). Stu wants to report in tonnes, therefore divides the sum by 1,000 and then rounds to two decimal places. Along with adding their units (tCO<sub>2</sub>e), Stu adds the [RC] tag to support transparency around how this figure was calculated. The final value added to Stu’s report on emissions associated with natural gas consumption is 167.55tCO<sub>2</sub>e [RC].
 
-*Equation 1.4* A worked example of an RDC calculation of emissions associated with natural gas consumption.
+*Equation 1.4* A worked example of an RC calculation of emissions associated with natural gas consumption.
 
 $$ 
 \frac{\left( 328 \times 2778.54 \right) \times 0.18385}
@@ -86,7 +86,7 @@ $$
 
 *Figure 1.1* Example of data sourced from a Display Energy Certificate.
 
-**Standard Calculation: Natural gas**
+**Standard calculation: Natural gas**
 
 Julia receives confirmation from her energy supplier that the site she is interested in used 100,000kWh of natural gas over the course of a year she is interested in. The supplier also indicates that the four months at the end of the period being assessed were estimated meter reads (Figure 1.2). Therefore, it can be suggested that 33% of the data underlying the period total consumption were estimated, and it is therefore necessary to use the Standard Calculation (SC) methodology.
 
@@ -103,7 +103,7 @@ $$
 
 *Figure 1.2* A visualisation of actual and estimated gas consumption.
 
-**Optimal Calculation: Natural gas**
+**Optimal calculation: Natural gas**
 
 Jo receives confirmation from her energy supplier that the site she is interested in used 200,000kWh of natural gas over the course of the year she is interested in. The supplier provides access to data from an installed Automated Meter Reader (AMR) and Jo is able to spot four weeks where no gas was being consumed unexpectedly. As such, data were considered missing for four weeks of a total 48 (for sake of this example), equalling 8.33% of estimated or missing data and 91.67% of verified or intact data. It is therefore possible to use the Optimal Calculation methodology.
 
