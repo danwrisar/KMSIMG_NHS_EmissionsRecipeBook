@@ -93,5 +93,5 @@ Along with adding her units (tCO<sub>2</sub>e), Juliana adds the [OC] tag to sup
 
 $$ 
 \frac{\left(\text{90,000 - 3,600 - 5,400} \right) \times \text{0.0018} \times \text{310}}{1000}
-=  \text{tCO}_2\text{e} \text{ [OC]}
+=  45.20 \text{tCO}_2\text{e} \text{ [OC]}
 $$
