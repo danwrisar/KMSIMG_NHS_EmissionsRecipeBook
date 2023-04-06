@@ -1,13 +1,13 @@
 # Edit these site settings
 # ------------------------------------------
-title:             nhsuk-static-jekyll
-email:             craig.shenton@nhs.net
-author:            Craig Robert Shenton
-description:       "Static Jekyll implementation of the NHS.UK service manual "
+title:             Emissions Quantification Recipe Book
+email:             dan.wright2+NHSEQRB@nhs.net
+author:            Dan Wright
+description:       "A transparent, collaborative and evidence-based approach to establishing a standardised means of calculating the NHS carbon footprint and carbon footprint plus"
 url:               "https://danwrisar.github.io/KMSIMG_NHS_EmissionsRecipeBook/"
-baseurl:           "nhsuk-static-jekyll/"
-github_username:   craig-shenton
-linkedin_username: craigrshenton
+baseurl:           "KMSIMG_NHS_EmissionsRecipeBook/"
+github_username:   danwrisar
+linkedin_username: 
 date_format:       "%b %-d, %Y"
 # ------------------------------------------
 
