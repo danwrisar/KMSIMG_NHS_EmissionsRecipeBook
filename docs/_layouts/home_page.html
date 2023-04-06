@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+{% include head.html %}
+
+<body class="site{% if site.animated %} animated fade-in-down{% endif %}">
+    <script>
+        document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');
+    </script>
+    <div class="site-wrap">
+        <a class="nhsuk-skip-link" href="#maincontent">Skip to main content</a>
+        {% include header.html %}
+        <section class="nhsuk-hero nhsuk-hero--image nhsuk-hero--image-description" style="background-image: url('assets/img/home/chris-ried-splash-min.jpg');">
+            <div class="nhsuk-hero__overlay">
+                <div class="nhsuk-width-container">
+                    <div class="nhsuk-grid-row">
+                        <div class="nhsuk-grid-column-two-thirds">
+                            <div class="nhsuk-hero-content">
+                                <h1 class="nhsuk-u-margin-bottom-3">{{ site.title }}</h1>
+                                <p class="nhsuk-body-l nhsuk-u-margin-bottom-0">{{ site.description}}</p>
+                                <span class="nhsuk-hero__arrow" aria-hidden="true"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="nhsuk-width-container">
+            <main class="nhsuk-main-wrapper" id="maincontent">
+                <div class="nhsuk-grid-row">
+                    <div class="nhsuk-grid-column-full">
+                        {{ content }}
+                    </div>
+                </div>
+            </main>
+        </div>
+
+        {% include footer.html %}
+</body>
+
+</html>

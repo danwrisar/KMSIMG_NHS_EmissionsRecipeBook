@@ -1,0 +1,71 @@
+/* Basscss Base Typography */
+
+pre,
+code,
+samp {
+  font-family: $monospace-font-family;
+  font-size: inherit;
+}
+
+pre {
+  margin-top: 0;
+  margin-bottom: $space-2;
+  overflow-x: scroll;
+}
+
+hr {
+  margin-top: $space-3;
+  margin-bottom: $space-3;
+}
+
+/* ==========================================================================
+   COMPONENTS / # Block Quote
+   ========================================================================== */
+/**
+ * 1. Removes top margin from first element and bottom margin from last,
+ *    to ensure correct spacing within the component.
+ * 2. Restricts the width of the text to optimise the line length for
+ *    readability.
+ */
+blockquote {
+  /* [1] */
+  max-width: 44em;
+  /* [2] */
+  margin-bottom: 40px;
+  margin-top: 40px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 16px;
+  border-left: 8px solid #005eb8;
+}
+blockquote > *:first-child {
+  margin-top: 0;
+}
+blockquote > *:last-child {
+  margin-bottom: 0;
+}
+@media (min-width: 40.0625em) {
+  blockquote {
+    margin-bottom: 48px;
+  }
+}
+@media (min-width: 40.0625em) {
+  blockquote {
+    margin-top: 48px;
+  }
+}
+@media (min-width: 40.0625em) {
+  blockquote {
+    padding: 24px;
+  }
+}
+@media print {
+  blockquote {
+    border-color: #212b32;
+  }
+}
+
+blockquote p {
+  font-size: $h3;
+  font-style: italic;
+}

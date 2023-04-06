@@ -1,0 +1,23 @@
+--- 
+layout: default
+title: Blog
+---
+
+<h2>Latest Posts</h2>
+    {% for post in site.posts %}
+        <div class="nhsuk-card nhsuk-card--clickable nhsuk-card--post">
+            <!--<img class="nhsuk-card__img" src="/assets/img/posts/shall-not-pass.jpg" alt="">-->
+            <div class="nhsuk-card__content">
+                <p class="nhsuk-card__metadata nhsuk-body-s nhsuk-u-margin-bottom-0">
+                    <span>{% if site.date_format %} {{ post.date | date: site.date_format }} {% else %} {{ post.date | date: "%b %-d, %Y" }} {% endif %}  |</span>
+                    <span>by {% if post.author %} {{ post.author }} {% else %} NHS Python Community {% endif %}</span>
+                </p>
+                <h3 class="nhsuk-card__heading">
+                    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                </h3>
+                <p class="nhsuk-card__description">
+                    {% if post.summary %} {{ post.summary }} {% else %} {{ post.excerpt }} {% endif %}
+                </p>
+            </div>
+        </div>
+    {% endfor %}

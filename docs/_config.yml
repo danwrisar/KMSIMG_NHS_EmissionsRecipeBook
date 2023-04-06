@@ -1,0 +1,72 @@
+# Edit these site settings
+# ------------------------------------------
+title:             nhsuk-static-jekyll
+email:             craig.shenton@nhs.net
+author:            Craig Robert Shenton
+description:       "Static Jekyll implementation of the NHS.UK service manual "
+url:               "https://craig-shenton.github.io/"
+baseurl:           "nhsuk-static-jekyll/"
+github_username:   craig-shenton
+linkedin_username: craigrshenton
+date_format:       "%b %-d, %Y"
+# ------------------------------------------
+
+# Optional features
+animated:             true
+show_related_posts:   true
+show_post_footers:    false
+show_social_icons:    true
+google_analytics:
+
+# Preview image for social media aka og:image and twitter:image
+post_preview_image: true
+
+# Disqus post comments
+disqus_shortname:
+
+# Post sharing icons
+show_sharing_icons: false
+# Change to 'true' to enable individual icons
+share_facebook: false
+share_twitter: false
+share_googleplus: false
+share_linkedin: false
+share_digg: false
+share_tumblr: false
+share_reddit: false
+share_stumbleupon: false
+share_hackernews: false
+
+text:
+  pagination:
+    newer: 'Newer'
+    older: 'Older'
+  share_buttons:
+    text:         'Share:'
+    twitter:      'Share on Twitter'
+    linkedin:     'Share on LinkedIn'
+  post:
+    updated:        'Updated'
+    minute_read:    'minute read'
+    related_posts:  'Related Posts'
+    post_footer:    'Lorem ipsum'
+  index:
+    coming_soon: 'Coming soon...'
+  og_locale: 'en_US'
+
+# Build settings
+markdown:     kramdown
+redcarpet:
+  extensions: ['smart', 'tables', 'with_toc_data']
+permalink:    :title
+sass:
+  style: compressed
+plugins:
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
+  - README.md
+  - vendor

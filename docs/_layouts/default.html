@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+{% include head.html %}
+
+<body class="site{% if site.animated %} animated fade-in-down{% endif %}">
+    <script>
+        document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');
+    </script>
+    <div class="site-wrap">
+        <a class="nhsuk-skip-link" href="#maincontent">Skip to main content</a>
+        {% include header.html %}
+        {% include nav_bar.html %}
+        <div class="nhsuk-width-container">
+            <main class="nhsuk-main-wrapper" id="maincontent">
+                <div class="nhsuk-grid-row">
+                    <div class="nhsuk-grid-column-full">
+                        {{ content }}
+                    </div>
+                </div>
+            </main>
+        </div>
+
+        {% include footer.html %}
+</body>
+
+</html>
