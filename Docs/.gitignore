@@ -1,7 +1,9 @@
-# ignore rendered files. If done corret you will
-# be rendering the .html files to `gh_pages` branch
-# so no need to put the outputs under version control
-# in the main branch
+_site
+.sass-cache
+.DS_Store
+.jekyll-metadata
 
-/.quarto/
-/_site/
+# Ignore the config file that's used for gh-pages.
+_config.gh-pages.yml
+
+Gemfile.lock

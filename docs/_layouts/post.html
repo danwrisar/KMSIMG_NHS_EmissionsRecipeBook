@@ -1,0 +1,111 @@
+---
+layout: default
+tag: Blog
+---
+
+{% assign minutes = content | strip_html | number_of_words | divided_by: 180 %} {% if minutes == 0 %} {% assign minutes = 1 %} {% endif %}
+
+<div>
+    <h1>{{ page.title }}</h1>
+    <p class="nhsuk-card__metadata nhsuk-body-s nhsuk-u-secondary-text-color">
+        <span>{{ page.date | date: site.date_format }} |</span> {% if page.update_date %}
+        <span>{{ site.text.post.updated | default: "Updated" }}: {{ page.update_date | date: site.date_format }} |</span> {% endif %}
+        <span>
+    {% if page.minutes %}
+      {{ page.minutes }} {{ site.text.post.minute_read | default: "minute read" }}
+    {% else %}
+      {{ minutes }} {{ site.text.post.minute_read | default: "minute read" }}
+    {% endif %}
+    </span>
+    </p>
+</div>
+
+<article class="post-content">
+<div class="nhsuk-grid-row">
+    <div class="nhsuk-grid-column-three-quarters">
+        {{ content }}
+    </div>
+
+    <div class="nhsuk-grid-column-one-quarter">
+        <div class="app-related-nav">
+            <nav class="app-related-nav__nav-section" aria-labelledby="parent-title">
+            <h2 class="app-related-nav__heading" id="parent-title">Contributor</h2>
+            <ul class="app-related-nav__list">
+                {% if page.author %}
+                    {% if page.author-link %}
+                        <li class="app-related-nav__item"><a class="app-related-nav__link" href="{{ page.author-link }}">{{ page.author }}</a></li>
+                    {% else %}
+                        <li class="app-related-nav__item">{{ page.author }}</li>
+                    {% endif %}
+                    {% if page.author-bio %}
+                    <li class="app-related-nav__item app-related-nav__item--selected" aria-current="true">{{ page.author-bio }}</li>
+                    {% else %}<span> </span>{% endif %}
+                {% else %}
+                    <li class="app-related-nav__item"><a class="app-related-nav__link" href="mailto:{{ site.email }}">{{ site.author }}</a></li>
+                {% endif %}
+            </ul>
+            </nav>
+        </div>
+    </div>
+</div>
+</article>
+
+<!--
+{% if site.show_sharing_icons %}
+  {% include share_buttons.html %}
+  <span class="nhsuk-u-visually-hidden">:</span>
+{% endif %}
+-->
+
+{% if site.show_post_footers %} {% include post_footer.html %} {% endif %} {% if site.disqus_shortname %}
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = '{{ site.disqus_shortname }}';
+    var disqus_identifier = '{{ page.id }}';
+    var disqus_title = {
+        {
+            page.title | jsonify
+        }
+    };
+
+    (function() {
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript> {% endif %}
+
+<!-- Related Posts -->
+{% if site.show_related_posts %}
+<nav class="nhsuk-contents-list" role="navigation" aria-label="Pages in this guide">
+    <h3>{{ site.text.post.related_posts | default: "Related Posts" }}</h3>
+    <ol class="nhsuk-contents-list__list">
+        {% for post in site.related_posts limit:5 %}
+            {% assign match = false %}
+            {% for category in post.categories %}
+                {% if page.categories contains category %}
+                    {% assign match = true %}
+                {% endif %}
+            {% endfor %}
+            {% if match %}
+                <li class="nhsuk-contents-list__item">
+                    <a class="nhsuk-contents-list__link" href="{{ post.url | relative_url }}" class="post-link">
+                        {{ post.title }}
+                    </a>
+                </li>
+            {% endif %}                       
+        {% endfor %}
+    </ol>
+</nav>
+{% endif %} 
+
+<!-- Back to latest posts -->
+<div class="nhsuk-back-link">
+    <a class="nhsuk-back-link__link" href="{{ "/blog " | relative_url }}">
+        <svg class="nhsuk-icon nhsuk-icon__chevron-left" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+    <path d="M8.5 12c0-.3.1-.5.3-.7l5-5c.4-.4 1-.4 1.4 0s.4 1 0 1.4L10.9 12l4.3 4.3c.4.4.4 1 0 1.4s-1 .4-1.4 0l-5-5c-.2-.2-.3-.4-.3-.7z"></path>
+  </svg> Back to latest posts</a>
+</div>

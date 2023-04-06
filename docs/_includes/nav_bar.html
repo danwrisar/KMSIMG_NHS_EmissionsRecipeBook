@@ -1,0 +1,12 @@
+<nav class="nhsuk-breadcrumb" aria-label="Breadcrumb">
+    <div class="nhsuk-width-container">
+        <ol class="nhsuk-breadcrumb__list">
+            <li class="nhsuk-breadcrumb__item"><a class="nhsuk-breadcrumb__link" href="{{ "/" | relative_url }}">Home</a></li>
+            {% if page.id %}
+            <li class="nhsuk-breadcrumb__item"><a class="nhsuk-breadcrumb__link" href="{{ "/blog" | relative_url }}">Blog</a></li>
+            {% endif %}
+            <li class="nhsuk-breadcrumb__item"><a class="nhsuk-breadcrumb__link" href="{{ post.url | relative_url }}">{{ page.title }}</a></li>
+        </ol>
+        <p class="nhsuk-breadcrumb__back"><a class="nhsuk-breadcrumb__backlink" href="{{ "/" | relative_url }}">Back to home page</a></p>
+    </div>
+</nav>

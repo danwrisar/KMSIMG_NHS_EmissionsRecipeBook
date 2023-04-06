@@ -1,0 +1,71 @@
+@charset "UTF-8";
+/*!
+
+Pixyll
+
+A simple, beautiful theme for Jekyll that emphasizes content rather than
+aesthetic fluff.
+
+Built upon BASSCSS (http://jxnblk.github.io/basscss).
+
+Crafted with <3 by John Otander (@4lpine) - ©2015-2019 John Otander
+MIT License http://opensource.org/licenses/MIT
+
+*/
+
+html, body {
+  height: auto;
+  min-height: 100%;
+}
+
+img {
+  max-width: 100%;
+}
+
+em img {
+  max-width: 100%;
+  margin-left: 0;
+}
+
+body {
+          box-sizing: border-box;
+     -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+/* ==========================================================================
+   NHS.Pycom
+   ========================================================================== */
+/**
+/* ==========================================================================
+   ELEMENTS / #PAGE
+   ========================================================================== */
+/**
+ * High-level, page-level styling.
+ *
+ * 1. The reason for this is to prevent "centering jumps" when navigating back
+ *    and forth between pages with enough content to have a vertical scroll bar
+ *    and pages that do not.
+ * 2. Fonts on OSX will look more consistent with other systems that do not
+ *    render text using sub-pixel anti-aliasing.
+ * 3. Override the user agent style margin of 8px.
+ * 4. Ensure the page always fills at least the entire height of the viewport.
+ */
+ html {
+  background-color: #d8dde0;
+  overflow-y: scroll;
+  /* [1] */
+}
+
+body {
+  -moz-osx-font-smoothing: grayscale;
+  /* [2] */
+  -webkit-font-smoothing: antialiased;
+  /* [2] */
+  background-color: #f0f4f5;
+  color: #212b32;
+  margin: 0;
+  /* [3] */
+  min-height: 100%;
+  /* [4] */
+}
