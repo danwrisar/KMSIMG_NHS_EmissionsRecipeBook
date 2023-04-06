@@ -3,7 +3,7 @@
 <p align="center">
   <a href="#dependencies">Dependencies</a> •
   <a href="#definition">Definition</a> •
-  <a href="#methodology">Methodology</a> •
+  <a href="#methodology">Methodology</a>
 </p>
 
 ## Dependencies

@@ -14,7 +14,6 @@
 
 > Note: The <a href="#methodology">methodology</a> and <a href="#examples">examples</a> is transferable approach to approximating emissions associated with the procurement of good and services associated with **medical devices**, **freight transport**, **business services**, **construction**, **manufacturing**, **medicines**, **food and catering**, **commissioned health services outside of the NHS** and **ICT**.
 
-
 ## Methodology
 
 **Data map**
