@@ -1,4 +1,4 @@
-# 14 Construction
+# 16 Medicines
 
 <p align="center">
   <a href="#dependencies">Dependencies</a> •
@@ -13,8 +13,9 @@
 
 ## Definition
 
-Emissions associated with the process of construction provisioned by the reporting party including the manufacture of building materials.
+Emissions associated with the manufacture and delivery of medicines prescribed and/or administered to patients as part of their care by the reporting party.
 
 ## Methodology
 
 See the transferable methodologies described and demonstrated in the [procurement of goods and services](/Chapters/100_kmsimg_procurement.md) documentation.
+

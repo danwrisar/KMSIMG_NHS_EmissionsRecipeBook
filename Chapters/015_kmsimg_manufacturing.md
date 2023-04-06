@@ -1,4 +1,4 @@
-# 14 Construction
+# 15 Manufacturing (products, chemicals, gases)
 
 <p align="center">
   <a href="#dependencies">Dependencies</a> •
@@ -13,7 +13,7 @@
 
 ## Definition
 
-Emissions associated with the process of construction provisioned by the reporting party including the manufacture of building materials.
+Emissions associated with the process of manufacturing provisioned by the reporting party including the manufacture of building materials.
 
 ## Methodology
 

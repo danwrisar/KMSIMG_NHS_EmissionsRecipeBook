@@ -1,4 +1,4 @@
-# 14 Construction
+# 18 Commissioned health services outside of the NHS
 
 <p align="center">
   <a href="#dependencies">Dependencies</a> •
@@ -13,8 +13,9 @@
 
 ## Definition
 
-Emissions associated with the process of construction provisioned by the reporting party including the manufacture of building materials.
+Emissions associated with care, support or supervision that has been arranged for a patient by the reporting party including testing and diagnostic support.
 
 ## Methodology
 
 See the transferable methodologies described and demonstrated in the [procurement of goods and services](/Chapters/100_kmsimg_procurement.md) documentation.
+

@@ -64,15 +64,14 @@ Fig 1. A summary of the themes considered to be within scope for reduction to ze
 * [12 Freight transport](/Chapters/012_kmsimg_freighttransport.md)
 * [13 Business services](/Chapters/013_kmsimg_businessservices.md)
 * [14 Construction](/Chapters/014_kmsimg_construction.md)
-* 15 Manufacturing*
-* 16 Medicine*
-* 17 Food & catering*
-* 18 Commissioned health services outside NHS*
-* 19 ICT*
+* [15 Manufacturing](/Chapters/015_kmsimg_manufacturing.md)
+* [16 Medicines](/Chapters/016_kmsimg_medicines.md)
+* [17 Food & catering](/Chapters/017_kmsimg_food_catering.md)
+* [18 Commissioned health services outside NHS](/Chapters/018_kmsimg_commissioned_health.md)
+* [19 ICT](/Chapters/019_kmsimg_ICT.md)
 * 20 Staff commuting (coming soon!)
 * 21 Patient and visitor travel (coming soon!)
 
-> \* The methodologies for these sections broadly align with the RC, SC and OC methods outlined in sections 11, 12, 13 and 14. These will be updated and published ASAP to support collaboration on refinement and discussion.
 
 ## Get involved
 
