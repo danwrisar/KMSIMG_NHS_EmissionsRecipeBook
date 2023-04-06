@@ -4,7 +4,7 @@ title:             nhsuk-static-jekyll
 email:             craig.shenton@nhs.net
 author:            Craig Robert Shenton
 description:       "Static Jekyll implementation of the NHS.UK service manual "
-url:               "https://craig-shenton.github.io/"
+url:               "https://danwrisar.github.io/KMSIMG_NHS_EmissionsRecipeBook/"
 baseurl:           "nhsuk-static-jekyll/"
 github_username:   craig-shenton
 linkedin_username: craigrshenton
