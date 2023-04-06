@@ -1,12 +1,12 @@
 ---
 layout:     post
-title:      Comparing apples to apples
-date:       2023-04-06 17:42:00
-summary:    A short overview of the NHS Emissions Quantification Recipe Book project.
+title:      Markdown in Action
+date:       2014-06-10 12:31:19
+summary:    See what the different elements looks like. Your markdown has never looked better. I promise.
 categories: jekyll markdown
-author:     Dan Wright, PhD
-author-bio: Head of Sustainability, Kent Community Health NHS Foundation Trust
-author-link: https://github.com/danwrisar
+author:     Craig Robert Shenton, PhD
+author-bio: Senior Data Engineer, NHS England Medical Directorate
+author-link: https://github.com/craig-shenton
 ---
 
 There is a significant amount of subtle, yet precisely calibrated, styling to ensure
