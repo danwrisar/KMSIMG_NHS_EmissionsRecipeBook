@@ -1,11 +1,11 @@
 ---
 layout:     post
-title:      Markdown in Action
-date:       2014-06-10 12:31:19
+title:      Comparing apples to apples
+date:       2023-04-06 17:05:19
 summary:    See what the different elements looks like. Your markdown has never looked better. I promise.
-categories: jekyll markdown
-author:     Craig Robert Shenton, PhD
-author-bio: Senior Data Engineer, NHS England Medical Directorate
+categories: introduction
+author:     Dan Wright, PhD
+author-bio: Head of Sustainability, Kent Community Health NHS Foundation Trust
 author-link: https://github.com/craig-shenton
 ---
 
