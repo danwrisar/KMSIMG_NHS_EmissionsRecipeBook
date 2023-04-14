@@ -1,12 +1,12 @@
 ---
 layout:     post
-title:      Comparing apples to apples
+title:      Comparing apples to apples with a recipe book
 date:       2023-04-06 17:05:19
 summary:    See what the different elements looks like. Your markdown has never looked better. I promise.
 categories: introduction
 author:     Dan Wright, PhD
 author-bio: Head of Sustainability, Kent Community Health NHS Foundation Trust
-author-link: https://github.com/craig-shenton
+author-link: https://github.com/danwrisar
 ---
 
 There is a significant amount of subtle, yet precisely calibrated, styling to ensure
