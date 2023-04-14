@@ -13,7 +13,7 @@
 
 ## Definition
 
-Emissions associated with the provision of services which enable non-clinical business functions such as consultancy, software access and operational support.
+Emissions associated with the provision of services which enable non-clinical business functions such as consultancy and operational support.
 
 ## Methodology
 
