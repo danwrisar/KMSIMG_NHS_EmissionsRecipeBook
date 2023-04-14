@@ -1,15 +1,25 @@
 ---
 layout:     post
-title:      Comparing apples to apples with a recipe book
+title:      Welcome to the NHS Emissions Quantification Recipe Book
 date:       2023-04-06 17:05:19
-summary:    See what the different elements looks like. Your markdown has never looked better. I promise.
-categories: introduction
+summary:    Learn more the origins of the NHS-EQRB
+categories: insights
 author:     Dan Wright, PhD
 author-bio: Head of Sustainability, Kent Community Health NHS Foundation Trust
 author-link: https://github.com/danwrisar
 ---
 
-There is a significant amount of subtle, yet precisely calibrated, styling to ensure
+The NHS Emission Quantification Recipe Book is a transparent, collaborative and evidence-based approach to establishing a standardised means of calculating emissions associated with NHS Carbon Footprint and Carbon Footprint Plus themes set out by the Greener NHS in October 2020 (Figure 1). The NHS Emissions Quantification Recipe Book has been developed by Dr Dan Wright of the Sustainability Team at Kent Community Health NHS Foundation Trust in collaboration with members of the NHS Kent & Medway Integrated Care System.
+
+Key to the methodologies specified is the recognition that NHS organisations are at different stages in their emissions quantification journey. To support this journey and provide an innovative means to report in a methodologically-transparent way, each theme provides three options for calculation:
+
+  * A Reduced Calculation (RC) is intended to be an approach to calculating a ballpark figure emission impact using data that should be easily accessible by someone stepping into an emissions reporting role.
+  * A Standard Calculation (SC) is intended to feature the minimum data that NHS organisations should be working towards sourcing and handling, for example, periodical energy consumption data.
+  * An Optimal Calculation (OC) is intended to feature 'best in class' approaches to calculating accurate emissions, this may include using advanced tooling or higher resolution data, for example, half-hourly energy consumption data.
+
+By being transparent around which methodological approach has been used, either RC, SC or OC, this supports 'comparing apples to apples' both within and between Integrated Care Systems.
+
+<!-- There is a significant amount of subtle, yet precisely calibrated, styling to ensure
 that your content is emphasized while still looking aesthetically pleasing.
 
 All links are easy to [locate and discern](#), yet don't detract from the [harmony
@@ -172,3 +182,4 @@ Happy writing.
 [^1]: Important information that may distract from the main text can go in footnotes.
 
 [^2]: Footnotes will work in tables since they're just links.
+-->
