@@ -13,7 +13,7 @@
 
 ## Definition
 
-Emissions associated with the supply of food, drink and associated external commissioned catering services provisioned by the reporting party.
+Emissions associated with the supply of food, drink and associated external commissioned catering services procured by the reporting party.
 
 ## Methodology
 

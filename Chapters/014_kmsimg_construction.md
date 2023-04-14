@@ -13,7 +13,7 @@
 
 ## Definition
 
-Emissions associated with the process of construction provisioned by the reporting party including the manufacture of building materials.
+Emissions associated with the process of construction procured by the reporting party including the manufacture of building materials.
 
 ## Methodology
 
