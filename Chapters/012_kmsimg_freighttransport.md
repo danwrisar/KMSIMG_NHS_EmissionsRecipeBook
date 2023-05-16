@@ -13,7 +13,7 @@
 
 ## Definition
 
-Emissions associated with transportation of freight by road, rail, ocean or air arranged by the reporting party.
+Emissions associated with transportation of freight by road, rail, ocean or air arranged by the reporting party, but occuring outside of the reporting party's operational boundaries.
 
 ## Methodology
 

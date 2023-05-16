@@ -13,7 +13,7 @@
 
 ## Definition
 
-Emissions associated with the provision of information and communication technologies for use by the reporting party.
+Emissions associated with the procurement of ICT equipment and infrastructure purchased by the reporting party.
 
 ## Methodology
 
