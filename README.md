@@ -87,7 +87,9 @@ The NHS Emission Quantification Recipe Book is [emailware](https://en.wiktionary
 
 ### Authors and CRediT statement
 
-Dan Wright<sup>1</sup>: Conceptualisation, Methodology, Validation, Formal Analysis, Investigation, Writing - Original Draft, Writing- Reviewing and Editing, Visualisation, and Project Administration.
+Dan Wright<sup>1</sup>: Conceptualisation, Methodology, Validation, Formal Analysis, Investigation, Writing - Original Draft, Writing - Reviewing and Editing, Visualisation, and Project Administration.
+
+Guy Wing<sup>7</sup>: Methodology, Writing - Original Draft and Resources.
 
 Vicky Cooper<sup>2</sup> and Stu Meades<sup>3</sup>: Methodology and Resources.
 
@@ -101,6 +103,7 @@ Finn Nightingale<sup>1</sup>: Project Administration.
 4. Greener NHS
 5. Kent County Council
 6. NHS Kent and Medway
+7. Sharpsmart UK
    
 ### Credits
 
