@@ -11,12 +11,7 @@
 
 * [The Department for Environment, Food and Rural Affairs (DEFRA) UK and England's carbon footprint to 2019: UK Full dataset 1990 - 2019, including conversion factors by SIC code](https://www.gov.uk/government/statistics/uks-carbon-footprint) (Accessed: 03 November 2022)
 * [Department for Business, Energy and Industrial Strategy (BEIS) conversion factors for company reporting](https://www.gov.uk/government/collections/government-conversion-factors-for-company-reporting) (Accessed: 22 July 2022)
-* Chantelle Rizan, Mahmood F. Bhutta, Malcom Reed, Rob Lillywhite, The carbon footprint of waste streams in a UK hospital, Journal of Cleaner Production, Volume 286, 2021
-(https://doi.org/10.1016/j.jclepro.2020.125446) (Accessed: 15 June 2023)
-
-[Rizan et al The carbon footprint of waste streams in a UK hospital (003).pdf](https://github.com/danwrisar/KMSIMG_NHS_EmissionsRecipeBook/files/11759553/Rizan.et.al.The.carbon.footprint.of.waste.streams.in.a.UK.hospital.003.pdf)
-
-
+* Rizan, Bhutta, Reed & Lillywhite (2021) The carbon footprint of waste streams in a UK hospital, Journal of Cleaner Production, 286. https://doi.org/10.1016/j.jclepro.2020.125446 (Accessed: 15 June 2023)
 
 ## Definition
 
@@ -29,98 +24,129 @@ Emissions associated with the transport, treatment and end-of-life disposal of m
 | Description of data available  | Reduced calculation [RC]  | Standard calculation [SC] | Optimal Calculation [OC] |
 | ------------------------------ |:---:| :---:| :---:|
 | Waste management billing (£) | X |  |  |
-| Waste disposal quantities by waste stream (tonnes) |  | X |  |
-| Waste disposal quantities by waste stream (tonnes) <br>  Supplier treatment emission factors by waste stream (kgCO2e/ tonne)<br>  Supplier transport emission by waste stream (kgCO2e/ tonne) |  |  | X |
+| Waste disposal quantities by waste stream (tonnes) |  | X | X |
+| Supplier treatment emission factors by waste stream (kgCO<sub>2</sub>e/tonne) |  |  | X |
+| Supplier transport emission by waste stream (kgCO<sub>2</sub>e/ tonne) |  |  | X |
 
 **Reduced calculation: Waste**
 
 *Equation 8.1* The RC approach for calculating emissions associated with the disposal of waste.
 
 $$
-\frac{\left(\text{Waste1Cost} \times \text{WasteSICFac} \right) + \left(\text{Waste2Cost} \times \text{WasteSICFac} \right) ... }
-{1000} = \text{tCO}_2\text{e} \text{ [SC]}
+\frac{\left(\text{Wa1Cost} \times \text{WaSICFac} \right) + \left(\text{Wa2Cost} \times \text{WaSICFac} \right) ... }
+{1000} = \text{tCO}_2\text{e} \text{ [RC]}
 $$
 
 Where:
-* Waste*n*Cost = The cost of disposal of the waste type, with the first waste type being denoted 'Waste1' (£).
-* WasteSICFac = The value assigned to "waste collection, treatment and disposal services; materials recovery services" from a date relevant dataset (kgCO<sub>2</sub>e/£).
+* Wa*n*Cost = The cost of disposal of the waste type, with the first waste type being denoted 'Wa1' (£).
+* WaSICFac = The value assigned to "waste collection, treatment and disposal services; materials recovery services" from a date relevant dataset (kgCO<sub>2</sub>e/£).
 
 **Standard calculation: Waste**
 
 *Equation 8.2* The SC approach for calculating emissions associated with the disposal of waste.
 
 $$
-\frac{\left(\text{Waste1Weight} \times \text{Waste1Fac} \right) + \left(\text{Waste2Cost} \times \text{Waste2Fac} \right) ... }
+\frac{\left(\text{Wa1Wei} \times \text{Wa1Fac} \right) + \left(\text{Wa2Cost} \times \text{Wa2Fac} \right) ... }
 {1000} = \text{tCO}_2\text{e} \text{ [SC]}
 $$
 
 Where:
-* Waste*n*Weight = The weight of the waste type disposed of, with the first waste type being denoted 'Waste1' (tonnes).
-* Waste*n*Fac = The value assigned to the disposal of the waste type by means of disposal from a date relevant dataset (kgCO<sub>2</sub>e/tonne).
+* Wa*n*Wei = The weight of the waste type disposed of, with the first waste type being denoted 'Wa1' (tonnes).
+* WaType*n*Fac = The value assigned to the disposal of the waste type by means of disposal from the relevant BEIS carbon factor database publication (kgCO<sub>2</sub>e/tonne).
 
 **Optimal calculation: Waste**
 
 *Equation 8.3* The OC approach for calculating emissions associated with the disposal of waste.
 
 $$
-\frac{\left(\text{Waste1Weight} \times \text{SupplierWaste1TreatFac}) + (\text{Waste1Weight} \times \text{SupplierWaste1TransFac}) + (\text{Waste2Weight} \times \text{SupplierWaste2TreatFac}) + (\text{Waste2Weight} \times \text{SupplierWaste2TransFac} \right) ... }
-{1000} = \text{tCO}_2\text{e} \text{ [SC]}
+\frac{\left(\text{Wa1Wei} \times \text{Wa1Fac} \right) + \left(\text{Wa2Cost} \times \text{Wa2Fac} \right) ... }
+{1000} = \text{tCO}_2\text{e} \text{ [OC]}
 $$
 
 Where:
-* Waste*n*Weight = The weight of the waste type disposed of, with the first waste type being denoted 'Waste1' (tonnes).
-* Waste*n*Fac = The value assigned to the disposal of the waste type by means of disposal from a date relevant dataset (kgCO<sub>2</sub>e/tonne).
-* SupplierWastenTreatFac = The value assigned to the treatment of the waste type, specific to the supplier's treatment process, calculated using Equation 8.4 (kgCO<sub>2</sub>e/tonne)
-* SupplierWastenTransFac = The value assigned to the transport of the waste type, specific to the supplier's distance and vehicle type , calculated using Equation 8.5(kgCO<sub>2</sub>e/tonne)
+* Wa*n*Wei = The weight of the waste type disposed of, with the first waste type being denoted 'Wa1' (tonnes).
+* WaPro*n*Fac = The value assigned to the process for disposal of the waste type confirmed by the treatment provider from [Rizan et al. (p.7, 2021)](https://doi.org/10.1016/j.jclepro.2020.125446) (kgCO<sub>2</sub>e/tonne).
 
-*Equation 8.4* The OC approach for calculating supplier specific emission factors associated with the treatment of waste.
+<!-- Parked 02/08/23 by DW potential to come back to, however, the Rizan paper accounts for transport within the method, so perhaps robust enough for now until requesting exact information from suppliers
 
-A supplier can calculate the Carbon footprint arising from treating a unit of waste by providing the following inputs:
+*Equation 8.3* The OC approach for calculating emissions associated with the disposal of waste including emissions associated with the supplier treatment and transport of waste.
 
 $$
-\frac{\left(\text{Electricity} \times \text{ElectricityFac} \right) + \left(\text{GasOil} \times \text{GasOilFac} \right)  + \left(\text{Water} \times \text{WaterFac} \right) }
-{X Tonnes of Waste Stream Proccessed} = \text{kgCO}_2/ tonne waste\text [OC]{e}
+\frac{\left(\text{Wa1Wei} \times \text{Wa1Treat}) + (\text{Wa1Wei} \times \text{Wa1Tran}) + (\text{Wa2Wei} \times \text{Wa2Treat}) + (\text{Wa2Wei} \times \text{Wa2Tran} \right) ... }
+{1000} = \text{tCO}_2\text{e} \text{ [OC]}
 $$
 
 Where:
-* Electricity = The total electricity consumption used to treat X tonnes of waste by supplier (kWh)
-* ElectricityFac = The value assigned to the Carbon footprint per unit of electricity from the BEIS dataset (kgCO<sub>2</sub>/kWh)
-* GasOil = The total Gas Oil consumption used to treat X tonnes of waste by supplier (L)
-* GasOilFac = The value assigned to the Carbon footprint per unit of Gas Oil from the BEIS dataset (kgCO<sub>2</sub>/L)
-* Water = The total water supply and treatment used to treat X tonnes of waste by supplier (m3)
-* WaterFac = The value assigned to the Carbon footprint per unit of water supply and treatment from the BEIS dataset (kgCO<sub>2</sub>/m3)
-* X Tonnes of Waste Stream Proccessed= The volume of a given waste stream treated correlating to the Inputs measured
+* Wa*n*Wei = The weight of the waste type disposed of, with the first waste type being denoted 'Wa1' (tonnes).
+* Wa*n*Treat = The value assigned to the treatment of the waste type, specific to the supplier's treatment process, calculated using Equation 8.4 (kgCO<sub>2</sub>e/tonne)
+* Wa*n*Tran = The value assigned to the transport of the waste type, specific to the supplier's distance and vehicle type , calculated using Equation 8.5(kgCO<sub>2</sub>e/tonne)
+* WaProcessed = Quantity of waste stream processed (tonnes)
 
+*Equation 8.4* The approach to calculating supplier specific emission factors associated with the treatment of a type of waste.
 
-*Equation 8.5* The OC approach for calculating supplier specific emission factors associated with the transportation of waste.
-TBC
+$$
+\frac{\left(\text{ElMon} \times \text{ElFac} \right) + \left(\text{GOMon} \times \text{GOFac} \right) + \left(\text{WatMon} \times \text{WatFac} \right) }
+{\text{WaPro}} = \text{kgCO}_2\text{e/tonne}
+$$
 
+Where:
+* ElMonCon = The total monitored electricity used to treat waste by supplier (kWh)
+* ElFac = The carbon factor assigned to the generation of electricity by the relevant BEIS carbon factor database publication (kgCO<sub>2</sub>e/kWh).
+* GOMon = The total monitored gas oil consumption used to treat waste by supplier (l).
+* GOFac = The carbon factor assigned to the combustion of gas oil by the relevant BEIS carbon factor database publication (kgCO<sub>2</sub>e/l).
+* Wat = The total water used to treat waste by supplier (m<sup>3</sup>).
+* WatFac = The carbon factor assigned to the supply and treatment of water by the relevant BEIS carbon factor database publication (kgCO<sub>2</sub>e/m<sup>3</sup>).
+* WaPro = The quantity of waste treated over the relevant period (tonnes).
 
+*Equation 8.5* The approach to calculating supplier specific emission factors associated with the transport of a type of waste.
+
+$$ 
+\frac{\left(\text{F1Litres} \times \text{F1Fac} \right) + \left( \text{F2Litres} \times \text{F2Fac} \right) ... }
+{\text{WaPro}} = \text{kgCO}_2\text{e/tonne}
+$$
+
+Where:
+* F*n*Litres = The annual quantity of the distinct fuel type consumed by vehicles transporting waste in the processing process (l), the first fuel type being denoted 'F1' .
+* F*n*Fac = The carbon factor assigned to the distinct fuel by the relevant BEIS carbon factor database publication (CO<sub>2</sub>e/litre), the first fuel type being denoted 'F1'.
+* WaPro = The quantity of waste treated over the relevant period (tonnes).
+-->
 
 ## Examples
 
-Benny wants to calculate the emissions arising from waste produced at Strawberry Hospital using the standard calculation. He has the data for the annual volume of waste produced by each waste stream, and has confirmed that the waste supplier will be treating the waste according to the methods outlined below:
+**Optimal calculation: Waste**
 
+Benny wants to calculate the emissions arising from waste produced at Strawberry Hospital over the course of a year using the standard calculation. He has the data for the annual volume of waste produced by each waste stream, and has confirmed the waste supplier's approach to treating each waste stream (Table 8.1).
 
-| Waste Stream  | Annual Volume (tonnes)  | Confirmed waste process |
-| -----|:---:| :---:|
-| Offensive | 120 | Low temperature incineration with EfW |
-| Infectious | 40 | Autoclave decontamination followed by  Low temperature incineration with EfW  |
+*Table 8.1* A summary of total waste created per stream and the processes utilised to treat the waste.
+
+| Waste stream  | Annual volume (tonnes)  | Confirmed waste process |
+| -----|:---:| :---|
+| Offensive | 120 | Low temperature incineration with energy from waste (EfW) |
+| Infectious | 40 | Autoclave decontamination followed by low temperature incineration with EfW  |
 | Anatomical Waste, Cytotoxic Waste, Clinical Waste | 40 | High temperature incineration | 
 
-EfW= energy from waste
 
-Benny will then multiply the weight of each waste type by the waste disposal factor from the relevant dataset: see below from Rizan article
+Benny sources the emission factor value associated with the process of waste disposal sourced from the most up-to-date appropriate publication, such as the factors proposed by  [Rizan et al. (p.7, 2021)](https://doi.org/10.1016/j.jclepro.2020.125446) featured in Table 8.2.
 
-| Waste Stream  |  Waste process | Carbon footprint (kgCO2e/t waste) |
-| -----|:---:| :---:|
-| Non-infectious offensive waste | Low temperature incineration with EfW | 249 |
-| Infectious waste | Autoclave decontamination followed by  Low temperature incineration with EfW | 569  |
-| Clinical waste, medicinal contaminated sharps, anatomical waste, medicinal waste | High temperature incineration | 1074 | 
+*Table 8.2* Carbon emission factors associated with disposing of waste per process as per [Rizan et al., (2021)](https://doi.org/10.1016/j.jclepro.2020.125446).
 
+| Waste Stream  |  Waste process | Waste process (kgCO<sub>2</sub>e/t) | Transport (kgCO<sub>2</sub>e/t) | Total (kgCO<sub>2</sub>e/t) |
+| ---|:---| :---:| :---:| :---:|
+| Recyling reusable surgical instruments | Recycling scrap metal | 21 | 0* | 21 |
+| Recyling reusable surgical linens | Recycling clothing | 21 | 0* | 21 |
+| Recyling batteries | Recycling batteries | 65 | 0* | 65 |
+| Dry mixed recylable waste | Low temperature incineration with EfW | 167 | 5 | 172 |
+| Domestic waste | Low temperature incineration with EfW | 167 | 5 | 172 |
+| Non-infectious offensive waste | Low temperature incineration with EfW | 167 | 82 | 249 |
+| Infectious waste | Autoclave decontamination followed by low temperature incineration with EfW | 338 | 64 | 569 |
+| Clinical waste, medicinal contaminated sharps, anatomical waste, medicinal waste | High temperature incineration | 949 | 125 | 1074 |
+
+\* Emissions associated with transportation included within the processing emissions.
+
+Benny wants to report in tonnes, therefore divides the sum by 1,000 and rounds to two decimal places. Along with adding his units (tCO<sub>2</sub>e), Benny adds the [OC] tag to support transparency around how this figure was calculated. The final value added to Benny’s annual report is 90.62tCO<sub>2</sub>e [OC].
 
 $$
 \frac{\left(\text{100} \times \text{249} \right) + \left(\text{40} \times \text{569} \right) + \left(\text{40} \times \text{1074} \right) }
-{1000} = \text{90.62 tCO<sub>2</sub>}
+{1000} = \text{90.62} \text{tCO}_2\text{e [OC]}
 $$
 
