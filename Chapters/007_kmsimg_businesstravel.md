@@ -43,7 +43,7 @@ $$
 
 Where:
 * TotMil = The total mileage completed by greyfleet over the period of interest.
-* AvgFac = The total average emissions (gCO2) per kilometre for vehicles first registered in the United Kingdom five years prior to the period of interest.
+* AvgFac = The total average emissions (gCO<sub>2</sub>) per kilometre for vehicles first registered in the United Kingdom five years prior to the period of interest.
 * kmConv = 1.609344
 
 **Optimal calculation: Greyfleet**
@@ -58,5 +58,5 @@ $$
 Where: 
 
 * V*n*Mil = The mileage completed by a unique vehicle over the period of interest (miles), the first unique vehicle being denoted 'V1' .
-* V*n*Fac = The registered emissions (gCO2) per kilometre for the unique vehicle denoted 'V1'.
-* kmConv = 1.609344
+* V*n*Fac = The registered emissions (gCO<sub>2</sub>) per kilometre for the unique vehicle denoted 'V1'.
+* kmConv = The value used to upscale miles to kilometers (1.609344).
