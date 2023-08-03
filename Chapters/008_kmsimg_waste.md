@@ -28,6 +28,7 @@ Emissions associated with the transport, treatment and end-of-life disposal of m
 | Supplier treatment emission factors by waste stream (kgCO<sub>2</sub>e/tonne) |  |  | X |
 | Supplier transport emission by waste stream (kgCO<sub>2</sub>e/ tonne) |  |  | X |
 
+<!-- 230803 DW demoted the DEFRA SICs approach following conversation with GW 
 **Reduced calculation: Waste**
 
 *Equation 8.1* The RC approach for calculating emissions associated with the disposal of waste.
@@ -40,34 +41,35 @@ $$
 Where:
 * Wa*n*Cost = The cost of disposal of the waste type, with the first waste type being denoted 'Wa1' (£).
 * WaSICFac = The value assigned to "waste collection, treatment and disposal services; materials recovery services" from a date relevant dataset (kgCO<sub>2</sub>e/£).
+-->
 
-**Standard calculation: Waste**
+**Reduced calculation: Waste**
 
-*Equation 8.2* The SC approach for calculating emissions associated with the disposal of waste.
+*Equation 8.1* The RC approach for calculating emissions associated with the disposal of waste.
 
 $$
-\frac{\left(\text{Wa1Wei} \times \text{Wa1Fac} \right) + \left(\text{Wa2Cost} \times \text{Wa2Fac} \right) ... }
-{1000} = \text{tCO}_2\text{e} \text{ [SC]}
+\frac{\left(\text{Wa1Wei} \times \text{Wa1Fac} \right) + \left(\text{Wa2Wei} \times \text{Wa2Fac} \right) ... }
+{1000} = \text{tCO}_2\text{e} \text{ [RC]}
 $$
 
 Where:
 * Wa*n*Wei = The weight of the waste type disposed of, with the first waste type being denoted 'Wa1' (tonnes).
 * WaType*n*Fac = The value assigned to the disposal of the waste type by means of disposal from the relevant BEIS carbon factor database publication (kgCO<sub>2</sub>e/tonne).
 
-**Optimal calculation: Waste**
+**Standard calculation: Waste**
 
-*Equation 8.3* The OC approach for calculating emissions associated with the disposal of waste.
+*Equation 8.2* The SC approach for calculating emissions associated with the disposal of waste.
 
 $$
-\frac{\left(\text{Wa1Wei} \times \text{Wa1Fac} \right) + \left(\text{Wa2Cost} \times \text{Wa2Fac} \right) ... }
-{1000} = \text{tCO}_2\text{e} \text{ [OC]}
+\frac{\left(\text{Wa1Wei} \times \text{Wa1Fac} \right) + \left(\text{Wa2Wei} \times \text{Wa2Fac} \right) ... }
+{1000} = \text{tCO}_2\text{e} \text{ [SC]}
 $$
 
 Where:
 * Wa*n*Wei = The weight of the waste type disposed of, with the first waste type being denoted 'Wa1' (tonnes).
 * WaPro*n*Fac = The value assigned to the process for disposal of the waste type confirmed by the treatment provider from [Rizan et al. (p.7, 2021)](https://doi.org/10.1016/j.jclepro.2020.125446) (kgCO<sub>2</sub>e/tonne).
 
-<!-- Parked 02/08/23 by DW potential to come back to, however, the Rizan paper accounts for transport within the method, so perhaps robust enough for now until requesting exact information from suppliers
+**Optimal calculation: Waste**
 
 *Equation 8.3* The OC approach for calculating emissions associated with the disposal of waste including emissions associated with the supplier treatment and transport of waste.
 
@@ -78,7 +80,7 @@ $$
 
 Where:
 * Wa*n*Wei = The weight of the waste type disposed of, with the first waste type being denoted 'Wa1' (tonnes).
-* Wa*n*Treat = The value assigned to the treatment of the waste type, specific to the supplier's treatment process, calculated using Equation 8.4 (kgCO<sub>2</sub>e/tonne)
+* Wa*n*Treat = The value assigned to the treatment of the waste type, specific to the supplier's treatment process, calculated using **=** (kgCO<sub>2</sub>e/tonne)
 * Wa*n*Tran = The value assigned to the transport of the waste type, specific to the supplier's distance and vehicle type , calculated using Equation 8.5(kgCO<sub>2</sub>e/tonne)
 * WaProcessed = Quantity of waste stream processed (tonnes)
 
@@ -109,11 +111,11 @@ Where:
 * F*n*Litres = The annual quantity of the distinct fuel type consumed by vehicles transporting waste in the processing process (l), the first fuel type being denoted 'F1' .
 * F*n*Fac = The carbon factor assigned to the distinct fuel by the relevant BEIS carbon factor database publication (CO<sub>2</sub>e/litre), the first fuel type being denoted 'F1'.
 * WaPro = The quantity of waste treated over the relevant period (tonnes).
--->
+
 
 ## Examples
 
-**Optimal calculation: Waste**
+**Standard calculation: Waste**
 
 Benny wants to calculate the emissions arising from waste produced at Strawberry Hospital over the course of a year using the standard calculation. He has the data for the annual volume of waste produced by each waste stream, and has confirmed the waste supplier's approach to treating each waste stream (Table 8.1).
 
@@ -124,7 +126,6 @@ Benny wants to calculate the emissions arising from waste produced at Strawberry
 | Offensive | 120 | Low temperature incineration with energy from waste (EfW) |
 | Infectious | 40 | Autoclave decontamination followed by low temperature incineration with EfW  |
 | Anatomical Waste, Cytotoxic Waste, Clinical Waste | 40 | High temperature incineration | 
-
 
 Benny sources the emission factor value associated with the process of waste disposal sourced from the most up-to-date appropriate publication, such as the factors proposed by  [Rizan et al. (p.7, 2021)](https://doi.org/10.1016/j.jclepro.2020.125446) featured in Table 8.2.
 
@@ -143,10 +144,10 @@ Benny sources the emission factor value associated with the process of waste dis
 
 \* Emissions associated with transportation included within the processing emissions.
 
-Benny wants to report in tonnes, therefore divides the sum by 1,000 and rounds to two decimal places. Along with adding his units (tCO<sub>2</sub>e), Benny adds the [OC] tag to support transparency around how this figure was calculated. The final value added to Benny’s annual report is 90.62tCO<sub>2</sub>e [OC].
+Benny wants to report in tonnes, therefore divides the sum by 1,000 and rounds to two decimal places. Along with adding his units (tCO<sub>2</sub>e), Benny adds the [SC] tag to support transparency around how this figure was calculated. The final value added to Benny’s annual report is 90.62tCO<sub>2</sub>e [SC].
 
 $$
 \frac{\left(\text{100} \times \text{249} \right) + \left(\text{40} \times \text{569} \right) + \left(\text{40} \times \text{1074} \right) }
-{1000} = \text{90.62} \text{tCO}_2\text{e [OC]}
+{1000} = \text{90.62} \text{tCO}_2\text{e [SC]}
 $$
 
