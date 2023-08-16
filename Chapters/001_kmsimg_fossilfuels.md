@@ -24,7 +24,7 @@ Emissions associated with the combustion of any gaseous, liquid, and solid fossi
 | Description of data available  | Reduced calculation [RC]  | Standard calculation [SC] | Optimal calculation [OC] |
 | ------------------------------ |:---:| :---:| :---:|
 | Modelled energy consumption | X |  |  |
-| Monitored annual consumption, ≥11% estimated (kWh) |  | X |  |
+| Monitored annual consumption, >10% estimated (kWh) |  | X |  |
 | Monitored annual consumption, ≤10% estimated (kWh) |  |  | X |
 
 **Reduced calculation: Natural gas**
@@ -51,7 +51,7 @@ $$
 $$
 
 Where:
-* EstMonCon = Value of monitored annual energy use (kWh) where ≥11% of data are estimated.
+* EstMonCon = Value of monitored annual energy use (kWh) where >10% of data are estimated.
 * FuelFac = Carbon factor assigned to the fuel by the relevant BEIS carbon factor database publication.  
 
 **Optimal calculation: Natural gas**
