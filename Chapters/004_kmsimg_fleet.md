@@ -77,13 +77,13 @@ $$
 
 Maxine has access to fuel cards records which state total quantities of distinct fuels purchased over the course of the year she is interested in. She knows that 20,000 litres of unleaded fuel were purchased and 10,000 litres of diesel fuel were purchased. By using the [BEIS Conversion Factors dataset for the year she is interested in (2019)](https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2019), Maxine is able to source a value for emissions per litre of unleaded fuel with an average biofuel blend (2.19585kgCO<sub>2</sub>e/litre) and per litre of diesel fuel with an average biofuel blend (2.59411kgCO<sub>2</sub>e/litre). 
 
-Maxine wants to report in tonnes, therefore divides the sum by 1,000 and rounds to two decimal places. Along with adding her units (tCO<sub>2</sub>e), Maxine adds the [SC] tag to support transparency around how this figure was calculated. The final value added to Maxine's report on emissions associated with NHS Fleet & Leased Vehicles is 30.33tCO<sub>2</sub>e [SC].
+Maxine wants to report in tonnes, therefore divides the sum by 1,000 and rounds to two decimal places. Along with adding her units (tCO<sub>2</sub>e), Maxine adds the [SC] tag to support transparency around how this figure was calculated. The final value added to Maxine's report on emissions associated with NHS Fleet & Leased Vehicles is 69.86tCO<sub>2</sub>e [SC].
 
 *Equation 4.5* A worked example of emissions associated with NHS Fleet & Leased vehicles using an SC method.
 
 $$ 
 \frac{\left(\text{20000} \times \text{2.19585} \right) + \left( \text{10000} \times \text{2.59411} \right) ... }
-{1000} = 30.33\text{tCO}_2\text{e} \text{ [SC]}
+{1000} = 69.86\text{tCO}_2\text{e} \text{ [SC]}
 $$
 
 **Optimal calculation: NHS Fleet & Leased vehicles**
