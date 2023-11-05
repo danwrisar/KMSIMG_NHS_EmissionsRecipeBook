@@ -23,7 +23,7 @@ Emissions associated with the supply and treatment of water at owned sites and t
 | Description of data available  | Reduced calculation [RC]  | Standard calculation [SC] | Optimal Calculation [OC] |
 | ------------------------------ |:---:| :---:| :---:|
 | Water supply and treatment billing (£) | X |  |  |
-| Monitored annual consumption, ≥11% estimated (m<sup>3</sup>) |  | X |  |
+| Monitored annual consumption, >10% estimated (m<sup>3</sup>) |  | X |  |
 | Monitored annual consumption, ≤10% estimated (m<sup>3</sup>) |  |  | X |
 
 **Reduced calculation: Water**
@@ -50,7 +50,7 @@ $$
 $$
 
 Where:
-* WatSuppVol = The volume of water supplied (m<sup>3</sup>) where ≥11% estimated.
+* WatSuppVol = The volume of water supplied (m<sup>3</sup>) where >10% estimated.
 * WatSuppFac = The value assigned to emissions associted with supply of water from a date relevant dataset (kgCO<sub>2</sub>e/m<sup>3</sup>).
 * WatTreatVol = The volume of water treated (m<sup>3</sup>).
 * WatTreatFac = The value assigned to emissions associted with treatment of water from a date relevant dataset (kgCO<sub>2</sub>e/m<sup>3</sup>).

@@ -27,7 +27,7 @@ Emissions associated with the generation of electricity consumed at owned sites 
 | Description of data available  | Reduced calculation [RC]  | Standard calculation [SC] | Optimal calculation [OC] |
 | ------------------------------ |:---:| :---:| :---:|
 | Modelled electricity consumption | X |  |  |
-| Monitored annual consumption, $\geq$ 11% estimated (kWh) |  | X |  |
+| Monitored annual consumption, &gt; 10% estimated (kWh) |  | X |  |
 | Monitored annual consumption, $\leq$ 10% estimated (kWh) |  |  | X |
 
 **Reduced calculation: Electricity**
@@ -55,7 +55,7 @@ $$
 $$
 
 Where:
-* EstMonCon = Value of monitored annual electricity use (kWh) where ≥11% of data are estimated.
+* EstMonCon = Value of monitored annual electricity use (kWh) where >10% of data are estimated.
 * GenFac = Carbon factor assigned to the fuel by the relevant BEIS carbon factor database publication.
 
 **Optimal calculation: Electricity**
