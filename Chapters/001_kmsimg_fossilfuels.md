@@ -37,7 +37,7 @@ $$
 $$
 
 Where:
-* ModCon = Value of modelled annual energy use (kWh/m<sup>2</sup>) from the relevant Display Energy Certificate.
+* ModCon = Value of monitored annual energy use (kWh/m<sup>2</sup>) from the relevant Display Energy Certificate.
 * A = Value of total useful floor area (m<sup>2</sup>) from the relevant Display Energy Certificate.
 * FuelFac = Carbon factor assigned to the fuel by the relevant BEIS carbon factor database publication.
 
