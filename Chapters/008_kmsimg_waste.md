@@ -133,10 +133,10 @@ Benny sources the emission factor value associated with the process of waste dis
 
 | Waste Stream  |  Waste process | Waste process (kgCO<sub>2</sub>e/t) | Transport (kgCO<sub>2</sub>e/t) | Total (kgCO<sub>2</sub>e/t) |
 | ---|:---| :---:| :---:| :---:|
-| Recyling reusable surgical instruments | Recycling scrap metal | 21 | 0* | 21 |
-| Recyling reusable surgical linens | Recycling clothing | 21 | 0* | 21 |
-| Recyling batteries | Recycling batteries | 65 | 0* | 65 |
-| Dry mixed recylable waste | Low temperature incineration with EfW | 167 | 5 | 172 |
+| Recycling reusable surgical instruments | Recycling scrap metal | 21 | 0* | 21 |
+| Recycling reusable surgical linens | Recycling clothing | 21 | 0* | 21 |
+| Recycling batteries | Recycling batteries | 65 | 0* | 65 |
+| Dry mixed recyclable waste | Low temperature incineration with EfW | 167 | 5 | 172 |
 | Domestic waste | Low temperature incineration with EfW | 167 | 5 | 172 |
 | Non-infectious offensive waste | Low temperature incineration with EfW | 167 | 82 | 249 |
 | Infectious waste | Autoclave decontamination followed by low temperature incineration with EfW | 338 | 64 | 569 |
